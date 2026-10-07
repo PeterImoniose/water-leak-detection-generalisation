@@ -1,0 +1,15 @@
+# Raw sensor data (3.88 GB) - download from Mendeley, see README.md
+datasets-*/
+*.raw
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/
