@@ -148,6 +148,7 @@ Units are not stated in the files. Values are as stored.
 4. **Uneven durations.** Recordings are 34-41 s, and eight hydrophone transient files (branched GL and NL) run 46-61 s. Window or crop to a fixed length before modelling.
 5. **Transient recordings are non-stationary.** The P2 transient files contain one large spike at 17.7-21.4 s, which matches the published demand shut-off at about 20 s.
 6. **Units are missing** for all three sensors.
+7. **Interference in the looped accelerometer recordings.** On A2 in the looped layout, all twelve recordings for LC, CC and GL have the same RMS to within 3% in every flow condition (including the transient), excess kurtosis of about -0.95, and a spectrum that is an evenly spaced comb of narrow lines. They do not respond to flow or to the demand shut-off, so they do not appear to contain pipe vibration. On A1 in the looped layout, the GL recordings sit near the noise floor with 60 Hz mains harmonics. The cause cannot be confirmed from the files. See `notebooks/01_exploratory_analysis.ipynb`, section 1.7.
 
 ## 6. Discrepancies with the publication
 

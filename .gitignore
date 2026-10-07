@@ -2,6 +2,12 @@
 datasets-*/
 *.raw
 
+# Rebuilt by scripts/build_features.py (33 MB)
+data/processed/spectrograms.npz
+
+# Logs
+*.log
+
 # Python
 __pycache__/
 *.py[cod]

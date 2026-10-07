@@ -1,0 +1,13 @@
+numpy>=2.0
+pandas>=2.2
+scipy>=1.13
+scikit-learn>=1.5
+matplotlib>=3.9
+pyarrow>=16
+lightgbm>=4.3
+joblib>=1.4
+# CPU build is enough: pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=2.3
+# To run the notebooks
+ipykernel
+nbconvert
