@@ -1,0 +1,19 @@
+sensor_type,task,mode,score
+A,detect,raw features,0.4375
+A,detect,standardised per layout,0.4531
+A,detect,standardised per sensor and layout,0.4688
+A,type,raw features,0.2250
+A,type,standardised per layout,0.2875
+A,type,standardised per sensor and layout,0.3250
+P,detect,raw features,0.6328
+P,detect,standardised per layout,0.5703
+P,detect,standardised per sensor and layout,0.5547
+P,type,raw features,0.2500
+P,type,standardised per layout,0.2750
+P,type,standardised per sensor and layout,0.1875
+H,detect,raw features,0.6042
+H,detect,standardised per layout,0.5365
+H,detect,standardised per sensor and layout,0.6667
+H,type,raw features,0.1833
+H,type,standardised per layout,0.2167
+H,type,standardised per sensor and layout,0.2417

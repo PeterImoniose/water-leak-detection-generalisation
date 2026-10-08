@@ -88,7 +88,7 @@ Regex that parses every labelled file:
 |---|---|---|---|---|---|
 | Accelerometer | 80 | 1.85 GB | CSV | 25.6 kHz | 34.0 / 36.1 / 41.0 s |
 | Dynamic pressure | 80 | 1.88 GB | CSV | 25.6 kHz | 35.2 / 36.1 / 41.0 s |
-| Hydrophone | 120 + 2 background | 0.15 GB | RAW | 8 kHz (from the publication) | 34.9 / 37.0 / 61.3 s |
+| Hydrophone | 120 + 2 background | 0.15 GB | RAW | 8 kHz | 34.9 / 37.0 / 61.3 s |
 | Total | 282 | 3.88 GB | | | |
 
 ### Design and class balance
@@ -107,7 +107,7 @@ CSV (accelerometer, pressure):
 RAW (hydrophone):
 - Headerless signed 32-bit little-endian PCM, mono.
 - Only the upper 16 bits carry signal (the lower 16 bits are zero in every sample of every file), so the effective resolution is 16 bits.
-- The 8 kHz rate is taken from the publication; the files themselves carry no rate.
+- The 8 kHz rate is taken from the publication; the files themselves carry no rate. It is consistent with the data: read at 8 kHz, narrow spectral lines fall at exactly 120 and 240 Hz, the mains harmonics. The 25.6 kHz rate of the CSV files checks out the same way (lines at exactly 60, 180 and 300 Hz).
 
 ### Loading
 
@@ -136,7 +136,7 @@ Units are not stated in the files. Values are as stored.
 | H2 | -32,768 / 32,767 | 4,642 | 31 - 10,114 |
 
 ### Frequency content
-- Accelerometer: most energy is below 2 kHz; median 95% energy frequency is about 2.06 kHz for CC and LC, 1.4 kHz for GL, and about 0.43 kHz for NL and OL.
+- Accelerometer: most energy is below 2 kHz; median 95% energy frequency is about 2.06 kHz for CC and LC, 1.4 kHz for GL, and about 0.43 kHz for NL and OL. The higher values for CC, LC and GL are driven by the interference described in issue 7 below, not by pipe vibration.
 - Pressure P1: 95% of energy below about 400-670 Hz. Pressure P2: 95% below about 22-67 Hz.
 - Hydrophone: more than 99.9% of energy is below 100 Hz in every leak class, with the spectral peak at 10-25 Hz. The two background-noise files are 30-140 counts RMS against 4,400-6,100 during tests.
 
@@ -148,7 +148,7 @@ Units are not stated in the files. Values are as stored.
 4. **Uneven durations.** Recordings are 34-41 s, and eight hydrophone transient files (branched GL and NL) run 46-61 s. Window or crop to a fixed length before modelling.
 5. **Transient recordings are non-stationary.** The P2 transient files contain one large spike at 17.7-21.4 s, which matches the published demand shut-off at about 20 s.
 6. **Units are missing** for all three sensors.
-7. **Interference in the looped accelerometer recordings.** On A2 in the looped layout, all twelve recordings for LC, CC and GL have the same RMS to within 3% in every flow condition (including the transient), excess kurtosis of about -0.95, and a spectrum that is an evenly spaced comb of narrow lines. They do not respond to flow or to the demand shut-off, so they do not appear to contain pipe vibration. On A1 in the looped layout, the GL recordings sit near the noise floor with 60 Hz mains harmonics. The cause cannot be confirmed from the files. See `notebooks/01_exploratory_analysis.ipynb`, section 1.7.
+7. **Interference in the looped accelerometer recordings.** On A2 in the looped layout, all twelve recordings for LC, CC and GL have the same RMS to within 3% in every flow condition (including the transient), excess kurtosis of about -0.95, and a spectrum that is an evenly spaced comb of narrow lines. They do not respond to flow or to the demand shut-off, so they do not appear to contain pipe vibration. The pattern repeats every 0.22 s (lines about 4.6 Hz apart) and is found in these twelve recordings only: a self-similarity score is 0.83 to 0.86 for them and at most 0.19 for the other 68 accelerometer recordings. They are separate recordings, not copies of one file. On A1 in the looped layout, the LC and CC recordings are roughly 5 to 15 times quieter than NL and OL at every flow condition, and two of the four GL recordings (no demand and 0.47 L/s) sit near the noise floor with 60 Hz mains harmonics. The cause cannot be confirmed from the files. See `notebooks/01_exploratory_analysis.ipynb`, section 1.7.
 
 ## 6. Discrepancies with the publication
 
@@ -163,7 +163,7 @@ The 25.6 kHz time axis is self-consistent: it places the transient spike at abou
 ## 7. Modelling cautions
 
 - **Sensor position and topology dominate amplitude.** P1 is about 15 times louder than P2. A1 on the branched layout sits at 0.0084-0.0090 RMS for every class including no-leak, so raw amplitude carries no leak information there.
-- **Class differences are not consistent across layouts.** On looped A2, the 500-2000 Hz band holds about 21% of energy for CC, GL and LC against 0.2% for NL and OL. On branched A2 that separation disappears (0.7-2.3% for all classes).
+- **Class differences are not consistent across layouts.** On looped A2, the 500-2000 Hz band holds about 21% of energy for CC, GL and LC against 0.2% for NL and OL, but that is the interference in issue 7. On branched A2 the separation disappears (0.7-2.3% for all classes). Typical gaps between class-median spectra are 8 to 30 dB in the looped layout on five of six sensors and 2 to 8 dB in the branched layout.
 - **Orifice leak resembles no-leak** on the accelerometers in both level and spectrum. Expect it to be the hardest class.
 - **Hydrophone noise tag has little visible effect.** `N` and `NN` recordings have similar RMS and spectral centroid.
 - **Only one recording per condition.** Cutting a recording into windows and splitting windows randomly between train and test will leak information. Split by whole recording, and ideally hold out a flow condition or a topology.

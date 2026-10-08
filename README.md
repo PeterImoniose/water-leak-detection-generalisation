@@ -2,7 +2,7 @@
 
 An analysis of a public laboratory leak-detection dataset (accelerometer, dynamic pressure and hydrophone recordings of four leak types and a no-leak baseline), followed by machine learning under progressively stricter evaluation.
 
-**Main finding.** Models reach 0.92 to 1.00 balanced accuracy on leak type when windows are split at random, and fall to chance when tested on a pipe layout they were not trained on. The models recognise groups of recordings, not leaks, and some of the differences they use are instrumentation artefacts in the data.
+**Main finding.** Models reach 0.92 to 1.00 balanced accuracy on leak type when windows are split at random, and fall to chance when tested on a pipe layout they were not trained on. What the models learn is what each class's recordings look like within one layout. Some of those differences are instrumentation artefacts, and with no repeated tests the dataset cannot show that any of them is caused by the leak.
 
 ![Balanced accuracy by evaluation protocol](figures/accuracy_by_protocol.png)
 
@@ -25,6 +25,9 @@ Other findings:
 - **Sensor position and pipe layout dominate the signals.** Leak class explains 2% of the variance in pressure signal level; sensor position explains 56%.
 - **Some class differences are artefacts.** In the looped layout, twelve accelerometer recordings for the crack and gasket classes contain a steady comb of narrow spectral lines that does not respond to flow or to a pressure surge.
 - **Model family matters little.** A CNN on spectrograms gains nothing consistent over a random forest, and loses more when conditions change.
+- **Less training data makes the models more accurate.** Predicting each test from the others, leak-type accuracy rises (for example 0.61 to 0.82 on the hydrophone) when tests recorded at the same flow condition are removed from training. That is how matching to similar recordings behaves, not how a learned rule behaves.
+- **The results are not chance, and not a code leak.** With class labels shuffled between tests, the same pipeline scores just under 0.50 for detection and about 0.14 for leak type; every held-out-test score with true labels is above the 95th percentile of 200 shuffles.
+- **Standardising features within each layout does not rescue the held-out layout** (leak type 0.19 to 0.32).
 - **Fusing sensor types** raises leak-type accuracy to 0.72 on held-out tests and 0.92 on a held-out flow condition, but does not help on a held-out layout (0.18).
 
 ![Interference pattern in looped accelerometer recordings](figures/accelerometer_artefact.png)
@@ -39,7 +42,7 @@ Other findings:
 | [DATASET.md](DATASET.md) | Data card: source, testbed, sensors, file formats, data quality issues |
 | [file_inventory.csv](file_inventory.csv) | One row per recording (282 rows) with labels and summary statistics |
 | `src/` | Loading, feature extraction, evaluation protocols and models, plot styling |
-| `scripts/` | `build_features.py` and `run_experiments.py` |
+| `scripts/` | `build_features.py`, `run_experiments.py` and `run_checks.py` |
 | `data/processed/` | Window features and per-recording spectra |
 | `results/` | Metrics and out-of-fold predictions for every model and protocol |
 
@@ -75,10 +78,18 @@ python scripts/build_features.py
 python scripts/run_experiments.py
 ```
 
+5. Run the robustness checks (about 10 minutes):
+
+```bash
+python scripts/run_checks.py
+```
+
 ## Limitations
 
 - Hyperparameters were not tuned, so within-condition scores could be improved. That would not address the failure to transfer between layouts.
-- The dataset has 40 physical tests, no repeats and two layouts, so the cross-layout result is a single pair of train/test directions.
+- The dataset has 40 physical tests, no repeats and two layouts, so the cross-layout result is a single pair of train/test directions and every interval is wide.
+- Failure to transfer between layouts does not prove there is no leak signal: a real signature could be specific to a layout. The data cannot separate that from a recording-session effect.
+- Only simple per-layout standardisation was tried as an adjustment for the change of layout; supervised domain-adaptation methods were not.
 - The local copy of the data differs from the publication in sample rate (25.6 kHz against 51.2 kHz) and recording length. See [DATASET.md](DATASET.md).
 - The cause of the accelerometer interference cannot be confirmed from the files.
 

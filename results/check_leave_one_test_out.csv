@@ -1,0 +1,841 @@
+sensor_type,variant,condition,file,pred,y
+A,all other tests,BR|CC|0.18 LPS,BR_CC_0.18 LPS_A1.csv,1,3
+A,all other tests,BR|CC|0.18 LPS,BR_CC_0.18 LPS_A2.csv,2,3
+A,without same-flow tests,BR|CC|0.18 LPS,BR_CC_0.18 LPS_A1.csv,2,3
+A,without same-flow tests,BR|CC|0.18 LPS,BR_CC_0.18 LPS_A2.csv,3,3
+A,without 9 random other tests,BR|CC|0.18 LPS,BR_CC_0.18 LPS_A1.csv,1,3
+A,without 9 random other tests,BR|CC|0.18 LPS,BR_CC_0.18 LPS_A2.csv,2,3
+A,all other tests,BR|CC|0.47 LPS,BR_CC_0.47 LPS_A1.csv,0,3
+A,all other tests,BR|CC|0.47 LPS,BR_CC_0.47 LPS_A2.csv,1,3
+A,without same-flow tests,BR|CC|0.47 LPS,BR_CC_0.47 LPS_A1.csv,0,3
+A,without same-flow tests,BR|CC|0.47 LPS,BR_CC_0.47 LPS_A2.csv,1,3
+A,without 9 random other tests,BR|CC|0.47 LPS,BR_CC_0.47 LPS_A1.csv,0,3
+A,without 9 random other tests,BR|CC|0.47 LPS,BR_CC_0.47 LPS_A2.csv,1,3
+A,all other tests,BR|CC|ND,BR_CC_ND_A1.csv,1,3
+A,all other tests,BR|CC|ND,BR_CC_ND_A2.csv,3,3
+A,without same-flow tests,BR|CC|ND,BR_CC_ND_A1.csv,0,3
+A,without same-flow tests,BR|CC|ND,BR_CC_ND_A2.csv,3,3
+A,without 9 random other tests,BR|CC|ND,BR_CC_ND_A1.csv,1,3
+A,without 9 random other tests,BR|CC|ND,BR_CC_ND_A2.csv,3,3
+A,all other tests,BR|CC|Transient,BR_CC_Transient_A1.csv,2,3
+A,all other tests,BR|CC|Transient,BR_CC_Transient_A2.csv,3,3
+A,without same-flow tests,BR|CC|Transient,BR_CC_Transient_A1.csv,3,3
+A,without same-flow tests,BR|CC|Transient,BR_CC_Transient_A2.csv,3,3
+A,without 9 random other tests,BR|CC|Transient,BR_CC_Transient_A1.csv,2,3
+A,without 9 random other tests,BR|CC|Transient,BR_CC_Transient_A2.csv,3,3
+A,all other tests,BR|GL|0.18 LPS,BR_GL_0.18 LPS_A1.csv,0,4
+A,all other tests,BR|GL|0.18 LPS,BR_GL_0.18 LPS_A2.csv,4,4
+A,without same-flow tests,BR|GL|0.18 LPS,BR_GL_0.18 LPS_A1.csv,2,4
+A,without same-flow tests,BR|GL|0.18 LPS,BR_GL_0.18 LPS_A2.csv,4,4
+A,without 9 random other tests,BR|GL|0.18 LPS,BR_GL_0.18 LPS_A1.csv,0,4
+A,without 9 random other tests,BR|GL|0.18 LPS,BR_GL_0.18 LPS_A2.csv,4,4
+A,all other tests,BR|GL|0.47 LPS,BR_GL_0.47 LPS_A1.csv,4,4
+A,all other tests,BR|GL|0.47 LPS,BR_GL_0.47 LPS_A2.csv,0,4
+A,without same-flow tests,BR|GL|0.47 LPS,BR_GL_0.47 LPS_A1.csv,4,4
+A,without same-flow tests,BR|GL|0.47 LPS,BR_GL_0.47 LPS_A2.csv,4,4
+A,without 9 random other tests,BR|GL|0.47 LPS,BR_GL_0.47 LPS_A1.csv,4,4
+A,without 9 random other tests,BR|GL|0.47 LPS,BR_GL_0.47 LPS_A2.csv,4,4
+A,all other tests,BR|GL|ND,BR_GL_ND_A1.csv,4,4
+A,all other tests,BR|GL|ND,BR_GL_ND_A2.csv,4,4
+A,without same-flow tests,BR|GL|ND,BR_GL_ND_A1.csv,4,4
+A,without same-flow tests,BR|GL|ND,BR_GL_ND_A2.csv,4,4
+A,without 9 random other tests,BR|GL|ND,BR_GL_ND_A1.csv,4,4
+A,without 9 random other tests,BR|GL|ND,BR_GL_ND_A2.csv,4,4
+A,all other tests,BR|GL|Transient,BR_GL_Transient_A1.csv,4,4
+A,all other tests,BR|GL|Transient,BR_GL_Transient_A2.csv,4,4
+A,without same-flow tests,BR|GL|Transient,BR_GL_Transient_A1.csv,4,4
+A,without same-flow tests,BR|GL|Transient,BR_GL_Transient_A2.csv,4,4
+A,without 9 random other tests,BR|GL|Transient,BR_GL_Transient_A1.csv,4,4
+A,without 9 random other tests,BR|GL|Transient,BR_GL_Transient_A2.csv,4,4
+A,all other tests,BR|LC|0.18 LPS,BR_LC_0.18 LPS_A1.csv,3,2
+A,all other tests,BR|LC|0.18 LPS,BR_LC_0.18 LPS_A2.csv,3,2
+A,without same-flow tests,BR|LC|0.18 LPS,BR_LC_0.18 LPS_A1.csv,3,2
+A,without same-flow tests,BR|LC|0.18 LPS,BR_LC_0.18 LPS_A2.csv,3,2
+A,without 9 random other tests,BR|LC|0.18 LPS,BR_LC_0.18 LPS_A1.csv,3,2
+A,without 9 random other tests,BR|LC|0.18 LPS,BR_LC_0.18 LPS_A2.csv,3,2
+A,all other tests,BR|LC|0.47 LPS,BR_LC_0.47 LPS_A1.csv,2,2
+A,all other tests,BR|LC|0.47 LPS,BR_LC_0.47 LPS_A2.csv,2,2
+A,without same-flow tests,BR|LC|0.47 LPS,BR_LC_0.47 LPS_A1.csv,2,2
+A,without same-flow tests,BR|LC|0.47 LPS,BR_LC_0.47 LPS_A2.csv,2,2
+A,without 9 random other tests,BR|LC|0.47 LPS,BR_LC_0.47 LPS_A1.csv,2,2
+A,without 9 random other tests,BR|LC|0.47 LPS,BR_LC_0.47 LPS_A2.csv,0,2
+A,all other tests,BR|LC|ND,BR_LC_ND_A1.csv,2,2
+A,all other tests,BR|LC|ND,BR_LC_ND_A2.csv,2,2
+A,without same-flow tests,BR|LC|ND,BR_LC_ND_A1.csv,2,2
+A,without same-flow tests,BR|LC|ND,BR_LC_ND_A2.csv,2,2
+A,without 9 random other tests,BR|LC|ND,BR_LC_ND_A1.csv,2,2
+A,without 9 random other tests,BR|LC|ND,BR_LC_ND_A2.csv,2,2
+A,all other tests,BR|LC|Transient,BR_LC_Transient_A1.csv,2,2
+A,all other tests,BR|LC|Transient,BR_LC_Transient_A2.csv,2,2
+A,without same-flow tests,BR|LC|Transient,BR_LC_Transient_A1.csv,2,2
+A,without same-flow tests,BR|LC|Transient,BR_LC_Transient_A2.csv,2,2
+A,without 9 random other tests,BR|LC|Transient,BR_LC_Transient_A1.csv,2,2
+A,without 9 random other tests,BR|LC|Transient,BR_LC_Transient_A2.csv,2,2
+A,all other tests,BR|NL|0.18 LPS,BR_NL_0.18 LPS_A1.csv,3,0
+A,all other tests,BR|NL|0.18 LPS,BR_NL_0.18 LPS_A2.csv,0,0
+A,without same-flow tests,BR|NL|0.18 LPS,BR_NL_0.18 LPS_A1.csv,3,0
+A,without same-flow tests,BR|NL|0.18 LPS,BR_NL_0.18 LPS_A2.csv,0,0
+A,without 9 random other tests,BR|NL|0.18 LPS,BR_NL_0.18 LPS_A1.csv,3,0
+A,without 9 random other tests,BR|NL|0.18 LPS,BR_NL_0.18 LPS_A2.csv,0,0
+A,all other tests,BR|NL|0.47 LPS,BR_NL_0.47 LPS_A1.csv,2,0
+A,all other tests,BR|NL|0.47 LPS,BR_NL_0.47 LPS_A2.csv,0,0
+A,without same-flow tests,BR|NL|0.47 LPS,BR_NL_0.47 LPS_A1.csv,0,0
+A,without same-flow tests,BR|NL|0.47 LPS,BR_NL_0.47 LPS_A2.csv,0,0
+A,without 9 random other tests,BR|NL|0.47 LPS,BR_NL_0.47 LPS_A1.csv,0,0
+A,without 9 random other tests,BR|NL|0.47 LPS,BR_NL_0.47 LPS_A2.csv,0,0
+A,all other tests,BR|NL|ND,BR_NL_ND_A1.csv,1,0
+A,all other tests,BR|NL|ND,BR_NL_ND_A2.csv,2,0
+A,without same-flow tests,BR|NL|ND,BR_NL_ND_A1.csv,1,0
+A,without same-flow tests,BR|NL|ND,BR_NL_ND_A2.csv,2,0
+A,without 9 random other tests,BR|NL|ND,BR_NL_ND_A1.csv,0,0
+A,without 9 random other tests,BR|NL|ND,BR_NL_ND_A2.csv,2,0
+A,all other tests,BR|NL|Transient,BR_NL_Transient_A1.csv,0,0
+A,all other tests,BR|NL|Transient,BR_NL_Transient_A2.csv,0,0
+A,without same-flow tests,BR|NL|Transient,BR_NL_Transient_A1.csv,0,0
+A,without same-flow tests,BR|NL|Transient,BR_NL_Transient_A2.csv,0,0
+A,without 9 random other tests,BR|NL|Transient,BR_NL_Transient_A1.csv,0,0
+A,without 9 random other tests,BR|NL|Transient,BR_NL_Transient_A2.csv,0,0
+A,all other tests,BR|OL|0.18 LPS,BR_OL_0.18 LPS_A1.csv,2,1
+A,all other tests,BR|OL|0.18 LPS,BR_OL_0.18 LPS_A2.csv,1,1
+A,without same-flow tests,BR|OL|0.18 LPS,BR_OL_0.18 LPS_A1.csv,2,1
+A,without same-flow tests,BR|OL|0.18 LPS,BR_OL_0.18 LPS_A2.csv,1,1
+A,without 9 random other tests,BR|OL|0.18 LPS,BR_OL_0.18 LPS_A1.csv,2,1
+A,without 9 random other tests,BR|OL|0.18 LPS,BR_OL_0.18 LPS_A2.csv,1,1
+A,all other tests,BR|OL|0.47 LPS,BR_OL_0.47 LPS_A1.csv,1,1
+A,all other tests,BR|OL|0.47 LPS,BR_OL_0.47 LPS_A2.csv,1,1
+A,without same-flow tests,BR|OL|0.47 LPS,BR_OL_0.47 LPS_A1.csv,1,1
+A,without same-flow tests,BR|OL|0.47 LPS,BR_OL_0.47 LPS_A2.csv,1,1
+A,without 9 random other tests,BR|OL|0.47 LPS,BR_OL_0.47 LPS_A1.csv,1,1
+A,without 9 random other tests,BR|OL|0.47 LPS,BR_OL_0.47 LPS_A2.csv,1,1
+A,all other tests,BR|OL|ND,BR_OL_ND_A1.csv,3,1
+A,all other tests,BR|OL|ND,BR_OL_ND_A2.csv,4,1
+A,without same-flow tests,BR|OL|ND,BR_OL_ND_A1.csv,0,1
+A,without same-flow tests,BR|OL|ND,BR_OL_ND_A2.csv,4,1
+A,without 9 random other tests,BR|OL|ND,BR_OL_ND_A1.csv,3,1
+A,without 9 random other tests,BR|OL|ND,BR_OL_ND_A2.csv,4,1
+A,all other tests,BR|OL|Transient,BR_OL_Transient_A1.csv,2,1
+A,all other tests,BR|OL|Transient,BR_OL_Transient_A2.csv,1,1
+A,without same-flow tests,BR|OL|Transient,BR_OL_Transient_A1.csv,2,1
+A,without same-flow tests,BR|OL|Transient,BR_OL_Transient_A2.csv,1,1
+A,without 9 random other tests,BR|OL|Transient,BR_OL_Transient_A1.csv,2,1
+A,without 9 random other tests,BR|OL|Transient,BR_OL_Transient_A2.csv,1,1
+A,all other tests,LO|CC|0.18 LPS,LO_CC_0.18 LPS_A1.csv,0,3
+A,all other tests,LO|CC|0.18 LPS,LO_CC_0.18 LPS_A2.csv,3,3
+A,without same-flow tests,LO|CC|0.18 LPS,LO_CC_0.18 LPS_A1.csv,3,3
+A,without same-flow tests,LO|CC|0.18 LPS,LO_CC_0.18 LPS_A2.csv,3,3
+A,without 9 random other tests,LO|CC|0.18 LPS,LO_CC_0.18 LPS_A1.csv,0,3
+A,without 9 random other tests,LO|CC|0.18 LPS,LO_CC_0.18 LPS_A2.csv,3,3
+A,all other tests,LO|CC|0.47 LPS,LO_CC_0.47 LPS_A1.csv,3,3
+A,all other tests,LO|CC|0.47 LPS,LO_CC_0.47 LPS_A2.csv,3,3
+A,without same-flow tests,LO|CC|0.47 LPS,LO_CC_0.47 LPS_A1.csv,3,3
+A,without same-flow tests,LO|CC|0.47 LPS,LO_CC_0.47 LPS_A2.csv,3,3
+A,without 9 random other tests,LO|CC|0.47 LPS,LO_CC_0.47 LPS_A1.csv,3,3
+A,without 9 random other tests,LO|CC|0.47 LPS,LO_CC_0.47 LPS_A2.csv,3,3
+A,all other tests,LO|CC|ND,LO_CC_ND_A1.csv,0,3
+A,all other tests,LO|CC|ND,LO_CC_ND_A2.csv,3,3
+A,without same-flow tests,LO|CC|ND,LO_CC_ND_A1.csv,0,3
+A,without same-flow tests,LO|CC|ND,LO_CC_ND_A2.csv,3,3
+A,without 9 random other tests,LO|CC|ND,LO_CC_ND_A1.csv,0,3
+A,without 9 random other tests,LO|CC|ND,LO_CC_ND_A2.csv,3,3
+A,all other tests,LO|CC|Transient,LO_CC_Transient_A1.csv,2,3
+A,all other tests,LO|CC|Transient,LO_CC_Transient_A2.csv,3,3
+A,without same-flow tests,LO|CC|Transient,LO_CC_Transient_A1.csv,2,3
+A,without same-flow tests,LO|CC|Transient,LO_CC_Transient_A2.csv,3,3
+A,without 9 random other tests,LO|CC|Transient,LO_CC_Transient_A1.csv,2,3
+A,without 9 random other tests,LO|CC|Transient,LO_CC_Transient_A2.csv,3,3
+A,all other tests,LO|GL|0.18 LPS,LO_GL_0.18 LPS_A1.csv,4,4
+A,all other tests,LO|GL|0.18 LPS,LO_GL_0.18 LPS_A2.csv,4,4
+A,without same-flow tests,LO|GL|0.18 LPS,LO_GL_0.18 LPS_A1.csv,4,4
+A,without same-flow tests,LO|GL|0.18 LPS,LO_GL_0.18 LPS_A2.csv,4,4
+A,without 9 random other tests,LO|GL|0.18 LPS,LO_GL_0.18 LPS_A1.csv,4,4
+A,without 9 random other tests,LO|GL|0.18 LPS,LO_GL_0.18 LPS_A2.csv,4,4
+A,all other tests,LO|GL|0.47 LPS,LO_GL_0.47 LPS_A1.csv,4,4
+A,all other tests,LO|GL|0.47 LPS,LO_GL_0.47 LPS_A2.csv,4,4
+A,without same-flow tests,LO|GL|0.47 LPS,LO_GL_0.47 LPS_A1.csv,4,4
+A,without same-flow tests,LO|GL|0.47 LPS,LO_GL_0.47 LPS_A2.csv,4,4
+A,without 9 random other tests,LO|GL|0.47 LPS,LO_GL_0.47 LPS_A1.csv,4,4
+A,without 9 random other tests,LO|GL|0.47 LPS,LO_GL_0.47 LPS_A2.csv,4,4
+A,all other tests,LO|GL|ND,LO_GL_ND_A1.csv,4,4
+A,all other tests,LO|GL|ND,LO_GL_ND_A2.csv,4,4
+A,without same-flow tests,LO|GL|ND,LO_GL_ND_A1.csv,4,4
+A,without same-flow tests,LO|GL|ND,LO_GL_ND_A2.csv,4,4
+A,without 9 random other tests,LO|GL|ND,LO_GL_ND_A1.csv,4,4
+A,without 9 random other tests,LO|GL|ND,LO_GL_ND_A2.csv,4,4
+A,all other tests,LO|GL|Transient,LO_GL_Transient_A1.csv,4,4
+A,all other tests,LO|GL|Transient,LO_GL_Transient_A2.csv,4,4
+A,without same-flow tests,LO|GL|Transient,LO_GL_Transient_A1.csv,4,4
+A,without same-flow tests,LO|GL|Transient,LO_GL_Transient_A2.csv,4,4
+A,without 9 random other tests,LO|GL|Transient,LO_GL_Transient_A1.csv,4,4
+A,without 9 random other tests,LO|GL|Transient,LO_GL_Transient_A2.csv,4,4
+A,all other tests,LO|LC|0.18 LPS,LO_LC_0.18 LPS_A1.csv,1,2
+A,all other tests,LO|LC|0.18 LPS,LO_LC_0.18 LPS_A2.csv,4,2
+A,without same-flow tests,LO|LC|0.18 LPS,LO_LC_0.18 LPS_A1.csv,2,2
+A,without same-flow tests,LO|LC|0.18 LPS,LO_LC_0.18 LPS_A2.csv,4,2
+A,without 9 random other tests,LO|LC|0.18 LPS,LO_LC_0.18 LPS_A1.csv,1,2
+A,without 9 random other tests,LO|LC|0.18 LPS,LO_LC_0.18 LPS_A2.csv,4,2
+A,all other tests,LO|LC|0.47 LPS,LO_LC_0.47 LPS_A1.csv,1,2
+A,all other tests,LO|LC|0.47 LPS,LO_LC_0.47 LPS_A2.csv,4,2
+A,without same-flow tests,LO|LC|0.47 LPS,LO_LC_0.47 LPS_A1.csv,1,2
+A,without same-flow tests,LO|LC|0.47 LPS,LO_LC_0.47 LPS_A2.csv,4,2
+A,without 9 random other tests,LO|LC|0.47 LPS,LO_LC_0.47 LPS_A1.csv,2,2
+A,without 9 random other tests,LO|LC|0.47 LPS,LO_LC_0.47 LPS_A2.csv,4,2
+A,all other tests,LO|LC|ND,LO_LC_ND_A1.csv,2,2
+A,all other tests,LO|LC|ND,LO_LC_ND_A2.csv,3,2
+A,without same-flow tests,LO|LC|ND,LO_LC_ND_A1.csv,2,2
+A,without same-flow tests,LO|LC|ND,LO_LC_ND_A2.csv,2,2
+A,without 9 random other tests,LO|LC|ND,LO_LC_ND_A1.csv,2,2
+A,without 9 random other tests,LO|LC|ND,LO_LC_ND_A2.csv,2,2
+A,all other tests,LO|LC|Transient,LO_LC_Transient_A1.csv,3,2
+A,all other tests,LO|LC|Transient,LO_LC_Transient_A2.csv,3,2
+A,without same-flow tests,LO|LC|Transient,LO_LC_Transient_A1.csv,2,2
+A,without same-flow tests,LO|LC|Transient,LO_LC_Transient_A2.csv,3,2
+A,without 9 random other tests,LO|LC|Transient,LO_LC_Transient_A1.csv,3,2
+A,without 9 random other tests,LO|LC|Transient,LO_LC_Transient_A2.csv,3,2
+A,all other tests,LO|NL|0.18 LPS,LO_NL_0.18 LPS_A1.csv,3,0
+A,all other tests,LO|NL|0.18 LPS,LO_NL_0.18 LPS_A2.csv,0,0
+A,without same-flow tests,LO|NL|0.18 LPS,LO_NL_0.18 LPS_A1.csv,3,0
+A,without same-flow tests,LO|NL|0.18 LPS,LO_NL_0.18 LPS_A2.csv,0,0
+A,without 9 random other tests,LO|NL|0.18 LPS,LO_NL_0.18 LPS_A1.csv,3,0
+A,without 9 random other tests,LO|NL|0.18 LPS,LO_NL_0.18 LPS_A2.csv,0,0
+A,all other tests,LO|NL|0.47 LPS,LO_NL_0.47 LPS_A1.csv,0,0
+A,all other tests,LO|NL|0.47 LPS,LO_NL_0.47 LPS_A2.csv,0,0
+A,without same-flow tests,LO|NL|0.47 LPS,LO_NL_0.47 LPS_A1.csv,0,0
+A,without same-flow tests,LO|NL|0.47 LPS,LO_NL_0.47 LPS_A2.csv,0,0
+A,without 9 random other tests,LO|NL|0.47 LPS,LO_NL_0.47 LPS_A1.csv,0,0
+A,without 9 random other tests,LO|NL|0.47 LPS,LO_NL_0.47 LPS_A2.csv,0,0
+A,all other tests,LO|NL|ND,LO_NL_ND_A1.csv,0,0
+A,all other tests,LO|NL|ND,LO_NL_ND_A2.csv,0,0
+A,without same-flow tests,LO|NL|ND,LO_NL_ND_A1.csv,0,0
+A,without same-flow tests,LO|NL|ND,LO_NL_ND_A2.csv,0,0
+A,without 9 random other tests,LO|NL|ND,LO_NL_ND_A1.csv,0,0
+A,without 9 random other tests,LO|NL|ND,LO_NL_ND_A2.csv,0,0
+A,all other tests,LO|NL|Transient,LO_NL_Transient_A1.csv,0,0
+A,all other tests,LO|NL|Transient,LO_NL_Transient_A2.csv,0,0
+A,without same-flow tests,LO|NL|Transient,LO_NL_Transient_A1.csv,0,0
+A,without same-flow tests,LO|NL|Transient,LO_NL_Transient_A2.csv,0,0
+A,without 9 random other tests,LO|NL|Transient,LO_NL_Transient_A1.csv,0,0
+A,without 9 random other tests,LO|NL|Transient,LO_NL_Transient_A2.csv,0,0
+A,all other tests,LO|OL|0.18 LPS,LO_OL_0.18 LPS_A1.csv,3,1
+A,all other tests,LO|OL|0.18 LPS,LO_OL_0.18 LPS_A2.csv,1,1
+A,without same-flow tests,LO|OL|0.18 LPS,LO_OL_0.18 LPS_A1.csv,2,1
+A,without same-flow tests,LO|OL|0.18 LPS,LO_OL_0.18 LPS_A2.csv,1,1
+A,without 9 random other tests,LO|OL|0.18 LPS,LO_OL_0.18 LPS_A1.csv,3,1
+A,without 9 random other tests,LO|OL|0.18 LPS,LO_OL_0.18 LPS_A2.csv,1,1
+A,all other tests,LO|OL|0.47 LPS,LO_OL_0.47 LPS_A1.csv,3,1
+A,all other tests,LO|OL|0.47 LPS,LO_OL_0.47 LPS_A2.csv,1,1
+A,without same-flow tests,LO|OL|0.47 LPS,LO_OL_0.47 LPS_A1.csv,1,1
+A,without same-flow tests,LO|OL|0.47 LPS,LO_OL_0.47 LPS_A2.csv,1,1
+A,without 9 random other tests,LO|OL|0.47 LPS,LO_OL_0.47 LPS_A1.csv,3,1
+A,without 9 random other tests,LO|OL|0.47 LPS,LO_OL_0.47 LPS_A2.csv,1,1
+A,all other tests,LO|OL|ND,LO_OL_ND_A1.csv,1,1
+A,all other tests,LO|OL|ND,LO_OL_ND_A2.csv,1,1
+A,without same-flow tests,LO|OL|ND,LO_OL_ND_A1.csv,1,1
+A,without same-flow tests,LO|OL|ND,LO_OL_ND_A2.csv,1,1
+A,without 9 random other tests,LO|OL|ND,LO_OL_ND_A1.csv,1,1
+A,without 9 random other tests,LO|OL|ND,LO_OL_ND_A2.csv,1,1
+A,all other tests,LO|OL|Transient,LO_OL_Transient_A1.csv,1,1
+A,all other tests,LO|OL|Transient,LO_OL_Transient_A2.csv,1,1
+A,without same-flow tests,LO|OL|Transient,LO_OL_Transient_A1.csv,1,1
+A,without same-flow tests,LO|OL|Transient,LO_OL_Transient_A2.csv,1,1
+A,without 9 random other tests,LO|OL|Transient,LO_OL_Transient_A1.csv,1,1
+A,without 9 random other tests,LO|OL|Transient,LO_OL_Transient_A2.csv,1,1
+P,all other tests,BR|CC|0.18 LPS,BR_CC_0.18 LPS_P1.csv,1,3
+P,all other tests,BR|CC|0.18 LPS,BR_CC_0.18 LPS_P2.csv,2,3
+P,without same-flow tests,BR|CC|0.18 LPS,BR_CC_0.18 LPS_P1.csv,1,3
+P,without same-flow tests,BR|CC|0.18 LPS,BR_CC_0.18 LPS_P2.csv,3,3
+P,without 9 random other tests,BR|CC|0.18 LPS,BR_CC_0.18 LPS_P1.csv,1,3
+P,without 9 random other tests,BR|CC|0.18 LPS,BR_CC_0.18 LPS_P2.csv,2,3
+P,all other tests,BR|CC|0.47 LPS,BR_CC_0.47 LPS_P1.csv,0,3
+P,all other tests,BR|CC|0.47 LPS,BR_CC_0.47 LPS_P2.csv,2,3
+P,without same-flow tests,BR|CC|0.47 LPS,BR_CC_0.47 LPS_P1.csv,0,3
+P,without same-flow tests,BR|CC|0.47 LPS,BR_CC_0.47 LPS_P2.csv,3,3
+P,without 9 random other tests,BR|CC|0.47 LPS,BR_CC_0.47 LPS_P1.csv,2,3
+P,without 9 random other tests,BR|CC|0.47 LPS,BR_CC_0.47 LPS_P2.csv,2,3
+P,all other tests,BR|CC|ND,BR_CC_ND_P1.csv,2,3
+P,all other tests,BR|CC|ND,BR_CC_ND_P2.csv,2,3
+P,without same-flow tests,BR|CC|ND,BR_CC_ND_P1.csv,1,3
+P,without same-flow tests,BR|CC|ND,BR_CC_ND_P2.csv,2,3
+P,without 9 random other tests,BR|CC|ND,BR_CC_ND_P1.csv,2,3
+P,without 9 random other tests,BR|CC|ND,BR_CC_ND_P2.csv,2,3
+P,all other tests,BR|CC|Transient,BR_CC_Transient_P1.csv,3,3
+P,all other tests,BR|CC|Transient,BR_CC_Transient_P2.csv,2,3
+P,without same-flow tests,BR|CC|Transient,BR_CC_Transient_P1.csv,3,3
+P,without same-flow tests,BR|CC|Transient,BR_CC_Transient_P2.csv,3,3
+P,without 9 random other tests,BR|CC|Transient,BR_CC_Transient_P1.csv,0,3
+P,without 9 random other tests,BR|CC|Transient,BR_CC_Transient_P2.csv,3,3
+P,all other tests,BR|GL|0.18 LPS,BR_GL_0.18 LPS_P1.csv,4,4
+P,all other tests,BR|GL|0.18 LPS,BR_GL_0.18 LPS_P2.csv,4,4
+P,without same-flow tests,BR|GL|0.18 LPS,BR_GL_0.18 LPS_P1.csv,4,4
+P,without same-flow tests,BR|GL|0.18 LPS,BR_GL_0.18 LPS_P2.csv,4,4
+P,without 9 random other tests,BR|GL|0.18 LPS,BR_GL_0.18 LPS_P1.csv,4,4
+P,without 9 random other tests,BR|GL|0.18 LPS,BR_GL_0.18 LPS_P2.csv,4,4
+P,all other tests,BR|GL|0.47 LPS,BR_GL_0.47 LPS_P1.csv,4,4
+P,all other tests,BR|GL|0.47 LPS,BR_GL_0.47 LPS_P2.csv,0,4
+P,without same-flow tests,BR|GL|0.47 LPS,BR_GL_0.47 LPS_P1.csv,4,4
+P,without same-flow tests,BR|GL|0.47 LPS,BR_GL_0.47 LPS_P2.csv,4,4
+P,without 9 random other tests,BR|GL|0.47 LPS,BR_GL_0.47 LPS_P1.csv,4,4
+P,without 9 random other tests,BR|GL|0.47 LPS,BR_GL_0.47 LPS_P2.csv,4,4
+P,all other tests,BR|GL|ND,BR_GL_ND_P1.csv,4,4
+P,all other tests,BR|GL|ND,BR_GL_ND_P2.csv,0,4
+P,without same-flow tests,BR|GL|ND,BR_GL_ND_P1.csv,4,4
+P,without same-flow tests,BR|GL|ND,BR_GL_ND_P2.csv,0,4
+P,without 9 random other tests,BR|GL|ND,BR_GL_ND_P1.csv,4,4
+P,without 9 random other tests,BR|GL|ND,BR_GL_ND_P2.csv,0,4
+P,all other tests,BR|GL|Transient,BR_GL_Transient_P1.csv,4,4
+P,all other tests,BR|GL|Transient,BR_GL_Transient_P2.csv,0,4
+P,without same-flow tests,BR|GL|Transient,BR_GL_Transient_P1.csv,4,4
+P,without same-flow tests,BR|GL|Transient,BR_GL_Transient_P2.csv,4,4
+P,without 9 random other tests,BR|GL|Transient,BR_GL_Transient_P1.csv,4,4
+P,without 9 random other tests,BR|GL|Transient,BR_GL_Transient_P2.csv,4,4
+P,all other tests,BR|LC|0.18 LPS,BR_LC_0.18 LPS_P1.csv,1,2
+P,all other tests,BR|LC|0.18 LPS,BR_LC_0.18 LPS_P2.csv,3,2
+P,without same-flow tests,BR|LC|0.18 LPS,BR_LC_0.18 LPS_P1.csv,1,2
+P,without same-flow tests,BR|LC|0.18 LPS,BR_LC_0.18 LPS_P2.csv,3,2
+P,without 9 random other tests,BR|LC|0.18 LPS,BR_LC_0.18 LPS_P1.csv,0,2
+P,without 9 random other tests,BR|LC|0.18 LPS,BR_LC_0.18 LPS_P2.csv,2,2
+P,all other tests,BR|LC|0.47 LPS,BR_LC_0.47 LPS_P1.csv,0,2
+P,all other tests,BR|LC|0.47 LPS,BR_LC_0.47 LPS_P2.csv,3,2
+P,without same-flow tests,BR|LC|0.47 LPS,BR_LC_0.47 LPS_P1.csv,0,2
+P,without same-flow tests,BR|LC|0.47 LPS,BR_LC_0.47 LPS_P2.csv,3,2
+P,without 9 random other tests,BR|LC|0.47 LPS,BR_LC_0.47 LPS_P1.csv,0,2
+P,without 9 random other tests,BR|LC|0.47 LPS,BR_LC_0.47 LPS_P2.csv,3,2
+P,all other tests,BR|LC|ND,BR_LC_ND_P1.csv,3,2
+P,all other tests,BR|LC|ND,BR_LC_ND_P2.csv,3,2
+P,without same-flow tests,BR|LC|ND,BR_LC_ND_P1.csv,1,2
+P,without same-flow tests,BR|LC|ND,BR_LC_ND_P2.csv,2,2
+P,without 9 random other tests,BR|LC|ND,BR_LC_ND_P1.csv,3,2
+P,without 9 random other tests,BR|LC|ND,BR_LC_ND_P2.csv,3,2
+P,all other tests,BR|LC|Transient,BR_LC_Transient_P1.csv,1,2
+P,all other tests,BR|LC|Transient,BR_LC_Transient_P2.csv,3,2
+P,without same-flow tests,BR|LC|Transient,BR_LC_Transient_P1.csv,1,2
+P,without same-flow tests,BR|LC|Transient,BR_LC_Transient_P2.csv,2,2
+P,without 9 random other tests,BR|LC|Transient,BR_LC_Transient_P1.csv,1,2
+P,without 9 random other tests,BR|LC|Transient,BR_LC_Transient_P2.csv,3,2
+P,all other tests,BR|NL|0.18 LPS,BR_NL_0.18 LPS_P1.csv,2,0
+P,all other tests,BR|NL|0.18 LPS,BR_NL_0.18 LPS_P2.csv,4,0
+P,without same-flow tests,BR|NL|0.18 LPS,BR_NL_0.18 LPS_P1.csv,1,0
+P,without same-flow tests,BR|NL|0.18 LPS,BR_NL_0.18 LPS_P2.csv,4,0
+P,without 9 random other tests,BR|NL|0.18 LPS,BR_NL_0.18 LPS_P1.csv,2,0
+P,without 9 random other tests,BR|NL|0.18 LPS,BR_NL_0.18 LPS_P2.csv,4,0
+P,all other tests,BR|NL|0.47 LPS,BR_NL_0.47 LPS_P1.csv,1,0
+P,all other tests,BR|NL|0.47 LPS,BR_NL_0.47 LPS_P2.csv,4,0
+P,without same-flow tests,BR|NL|0.47 LPS,BR_NL_0.47 LPS_P1.csv,0,0
+P,without same-flow tests,BR|NL|0.47 LPS,BR_NL_0.47 LPS_P2.csv,4,0
+P,without 9 random other tests,BR|NL|0.47 LPS,BR_NL_0.47 LPS_P1.csv,1,0
+P,without 9 random other tests,BR|NL|0.47 LPS,BR_NL_0.47 LPS_P2.csv,4,0
+P,all other tests,BR|NL|ND,BR_NL_ND_P1.csv,0,0
+P,all other tests,BR|NL|ND,BR_NL_ND_P2.csv,0,0
+P,without same-flow tests,BR|NL|ND,BR_NL_ND_P1.csv,0,0
+P,without same-flow tests,BR|NL|ND,BR_NL_ND_P2.csv,0,0
+P,without 9 random other tests,BR|NL|ND,BR_NL_ND_P1.csv,0,0
+P,without 9 random other tests,BR|NL|ND,BR_NL_ND_P2.csv,0,0
+P,all other tests,BR|NL|Transient,BR_NL_Transient_P1.csv,3,0
+P,all other tests,BR|NL|Transient,BR_NL_Transient_P2.csv,0,0
+P,without same-flow tests,BR|NL|Transient,BR_NL_Transient_P1.csv,3,0
+P,without same-flow tests,BR|NL|Transient,BR_NL_Transient_P2.csv,0,0
+P,without 9 random other tests,BR|NL|Transient,BR_NL_Transient_P1.csv,2,0
+P,without 9 random other tests,BR|NL|Transient,BR_NL_Transient_P2.csv,0,0
+P,all other tests,BR|OL|0.18 LPS,BR_OL_0.18 LPS_P1.csv,2,1
+P,all other tests,BR|OL|0.18 LPS,BR_OL_0.18 LPS_P2.csv,1,1
+P,without same-flow tests,BR|OL|0.18 LPS,BR_OL_0.18 LPS_P1.csv,3,1
+P,without same-flow tests,BR|OL|0.18 LPS,BR_OL_0.18 LPS_P2.csv,1,1
+P,without 9 random other tests,BR|OL|0.18 LPS,BR_OL_0.18 LPS_P1.csv,3,1
+P,without 9 random other tests,BR|OL|0.18 LPS,BR_OL_0.18 LPS_P2.csv,1,1
+P,all other tests,BR|OL|0.47 LPS,BR_OL_0.47 LPS_P1.csv,1,1
+P,all other tests,BR|OL|0.47 LPS,BR_OL_0.47 LPS_P2.csv,1,1
+P,without same-flow tests,BR|OL|0.47 LPS,BR_OL_0.47 LPS_P1.csv,1,1
+P,without same-flow tests,BR|OL|0.47 LPS,BR_OL_0.47 LPS_P2.csv,1,1
+P,without 9 random other tests,BR|OL|0.47 LPS,BR_OL_0.47 LPS_P1.csv,1,1
+P,without 9 random other tests,BR|OL|0.47 LPS,BR_OL_0.47 LPS_P2.csv,1,1
+P,all other tests,BR|OL|ND,BR_OL_ND_P1.csv,3,1
+P,all other tests,BR|OL|ND,BR_OL_ND_P2.csv,1,1
+P,without same-flow tests,BR|OL|ND,BR_OL_ND_P1.csv,1,1
+P,without same-flow tests,BR|OL|ND,BR_OL_ND_P2.csv,1,1
+P,without 9 random other tests,BR|OL|ND,BR_OL_ND_P1.csv,3,1
+P,without 9 random other tests,BR|OL|ND,BR_OL_ND_P2.csv,1,1
+P,all other tests,BR|OL|Transient,BR_OL_Transient_P1.csv,2,1
+P,all other tests,BR|OL|Transient,BR_OL_Transient_P2.csv,1,1
+P,without same-flow tests,BR|OL|Transient,BR_OL_Transient_P1.csv,1,1
+P,without same-flow tests,BR|OL|Transient,BR_OL_Transient_P2.csv,1,1
+P,without 9 random other tests,BR|OL|Transient,BR_OL_Transient_P1.csv,2,1
+P,without 9 random other tests,BR|OL|Transient,BR_OL_Transient_P2.csv,1,1
+P,all other tests,LO|CC|0.18 LPS,LO_CC_0.18 LPS_P1.csv,4,3
+P,all other tests,LO|CC|0.18 LPS,LO_CC_0.18 LPS_P2.csv,0,3
+P,without same-flow tests,LO|CC|0.18 LPS,LO_CC_0.18 LPS_P1.csv,2,3
+P,without same-flow tests,LO|CC|0.18 LPS,LO_CC_0.18 LPS_P2.csv,1,3
+P,without 9 random other tests,LO|CC|0.18 LPS,LO_CC_0.18 LPS_P1.csv,4,3
+P,without 9 random other tests,LO|CC|0.18 LPS,LO_CC_0.18 LPS_P2.csv,0,3
+P,all other tests,LO|CC|0.47 LPS,LO_CC_0.47 LPS_P1.csv,3,3
+P,all other tests,LO|CC|0.47 LPS,LO_CC_0.47 LPS_P2.csv,0,3
+P,without same-flow tests,LO|CC|0.47 LPS,LO_CC_0.47 LPS_P1.csv,3,3
+P,without same-flow tests,LO|CC|0.47 LPS,LO_CC_0.47 LPS_P2.csv,3,3
+P,without 9 random other tests,LO|CC|0.47 LPS,LO_CC_0.47 LPS_P1.csv,3,3
+P,without 9 random other tests,LO|CC|0.47 LPS,LO_CC_0.47 LPS_P2.csv,0,3
+P,all other tests,LO|CC|ND,LO_CC_ND_P1.csv,4,3
+P,all other tests,LO|CC|ND,LO_CC_ND_P2.csv,2,3
+P,without same-flow tests,LO|CC|ND,LO_CC_ND_P1.csv,4,3
+P,without same-flow tests,LO|CC|ND,LO_CC_ND_P2.csv,2,3
+P,without 9 random other tests,LO|CC|ND,LO_CC_ND_P1.csv,1,3
+P,without 9 random other tests,LO|CC|ND,LO_CC_ND_P2.csv,1,3
+P,all other tests,LO|CC|Transient,LO_CC_Transient_P1.csv,2,3
+P,all other tests,LO|CC|Transient,LO_CC_Transient_P2.csv,4,3
+P,without same-flow tests,LO|CC|Transient,LO_CC_Transient_P1.csv,3,3
+P,without same-flow tests,LO|CC|Transient,LO_CC_Transient_P2.csv,4,3
+P,without 9 random other tests,LO|CC|Transient,LO_CC_Transient_P1.csv,2,3
+P,without 9 random other tests,LO|CC|Transient,LO_CC_Transient_P2.csv,4,3
+P,all other tests,LO|GL|0.18 LPS,LO_GL_0.18 LPS_P1.csv,3,4
+P,all other tests,LO|GL|0.18 LPS,LO_GL_0.18 LPS_P2.csv,3,4
+P,without same-flow tests,LO|GL|0.18 LPS,LO_GL_0.18 LPS_P1.csv,4,4
+P,without same-flow tests,LO|GL|0.18 LPS,LO_GL_0.18 LPS_P2.csv,1,4
+P,without 9 random other tests,LO|GL|0.18 LPS,LO_GL_0.18 LPS_P1.csv,3,4
+P,without 9 random other tests,LO|GL|0.18 LPS,LO_GL_0.18 LPS_P2.csv,3,4
+P,all other tests,LO|GL|0.47 LPS,LO_GL_0.47 LPS_P1.csv,0,4
+P,all other tests,LO|GL|0.47 LPS,LO_GL_0.47 LPS_P2.csv,0,4
+P,without same-flow tests,LO|GL|0.47 LPS,LO_GL_0.47 LPS_P1.csv,0,4
+P,without same-flow tests,LO|GL|0.47 LPS,LO_GL_0.47 LPS_P2.csv,0,4
+P,without 9 random other tests,LO|GL|0.47 LPS,LO_GL_0.47 LPS_P1.csv,4,4
+P,without 9 random other tests,LO|GL|0.47 LPS,LO_GL_0.47 LPS_P2.csv,0,4
+P,all other tests,LO|GL|ND,LO_GL_ND_P1.csv,4,4
+P,all other tests,LO|GL|ND,LO_GL_ND_P2.csv,1,4
+P,without same-flow tests,LO|GL|ND,LO_GL_ND_P1.csv,4,4
+P,without same-flow tests,LO|GL|ND,LO_GL_ND_P2.csv,1,4
+P,without 9 random other tests,LO|GL|ND,LO_GL_ND_P1.csv,4,4
+P,without 9 random other tests,LO|GL|ND,LO_GL_ND_P2.csv,1,4
+P,all other tests,LO|GL|Transient,LO_GL_Transient_P1.csv,4,4
+P,all other tests,LO|GL|Transient,LO_GL_Transient_P2.csv,4,4
+P,without same-flow tests,LO|GL|Transient,LO_GL_Transient_P1.csv,4,4
+P,without same-flow tests,LO|GL|Transient,LO_GL_Transient_P2.csv,4,4
+P,without 9 random other tests,LO|GL|Transient,LO_GL_Transient_P1.csv,4,4
+P,without 9 random other tests,LO|GL|Transient,LO_GL_Transient_P2.csv,4,4
+P,all other tests,LO|LC|0.18 LPS,LO_LC_0.18 LPS_P1.csv,2,2
+P,all other tests,LO|LC|0.18 LPS,LO_LC_0.18 LPS_P2.csv,1,2
+P,without same-flow tests,LO|LC|0.18 LPS,LO_LC_0.18 LPS_P1.csv,2,2
+P,without same-flow tests,LO|LC|0.18 LPS,LO_LC_0.18 LPS_P2.csv,1,2
+P,without 9 random other tests,LO|LC|0.18 LPS,LO_LC_0.18 LPS_P1.csv,2,2
+P,without 9 random other tests,LO|LC|0.18 LPS,LO_LC_0.18 LPS_P2.csv,1,2
+P,all other tests,LO|LC|0.47 LPS,LO_LC_0.47 LPS_P1.csv,2,2
+P,all other tests,LO|LC|0.47 LPS,LO_LC_0.47 LPS_P2.csv,3,2
+P,without same-flow tests,LO|LC|0.47 LPS,LO_LC_0.47 LPS_P1.csv,2,2
+P,without same-flow tests,LO|LC|0.47 LPS,LO_LC_0.47 LPS_P2.csv,3,2
+P,without 9 random other tests,LO|LC|0.47 LPS,LO_LC_0.47 LPS_P1.csv,2,2
+P,without 9 random other tests,LO|LC|0.47 LPS,LO_LC_0.47 LPS_P2.csv,3,2
+P,all other tests,LO|LC|ND,LO_LC_ND_P1.csv,2,2
+P,all other tests,LO|LC|ND,LO_LC_ND_P2.csv,4,2
+P,without same-flow tests,LO|LC|ND,LO_LC_ND_P1.csv,2,2
+P,without same-flow tests,LO|LC|ND,LO_LC_ND_P2.csv,2,2
+P,without 9 random other tests,LO|LC|ND,LO_LC_ND_P1.csv,2,2
+P,without 9 random other tests,LO|LC|ND,LO_LC_ND_P2.csv,2,2
+P,all other tests,LO|LC|Transient,LO_LC_Transient_P1.csv,3,2
+P,all other tests,LO|LC|Transient,LO_LC_Transient_P2.csv,3,2
+P,without same-flow tests,LO|LC|Transient,LO_LC_Transient_P1.csv,2,2
+P,without same-flow tests,LO|LC|Transient,LO_LC_Transient_P2.csv,2,2
+P,without 9 random other tests,LO|LC|Transient,LO_LC_Transient_P1.csv,2,2
+P,without 9 random other tests,LO|LC|Transient,LO_LC_Transient_P2.csv,2,2
+P,all other tests,LO|NL|0.18 LPS,LO_NL_0.18 LPS_P1.csv,4,0
+P,all other tests,LO|NL|0.18 LPS,LO_NL_0.18 LPS_P2.csv,3,0
+P,without same-flow tests,LO|NL|0.18 LPS,LO_NL_0.18 LPS_P1.csv,4,0
+P,without same-flow tests,LO|NL|0.18 LPS,LO_NL_0.18 LPS_P2.csv,1,0
+P,without 9 random other tests,LO|NL|0.18 LPS,LO_NL_0.18 LPS_P1.csv,4,0
+P,without 9 random other tests,LO|NL|0.18 LPS,LO_NL_0.18 LPS_P2.csv,3,0
+P,all other tests,LO|NL|0.47 LPS,LO_NL_0.47 LPS_P1.csv,0,0
+P,all other tests,LO|NL|0.47 LPS,LO_NL_0.47 LPS_P2.csv,4,0
+P,without same-flow tests,LO|NL|0.47 LPS,LO_NL_0.47 LPS_P1.csv,0,0
+P,without same-flow tests,LO|NL|0.47 LPS,LO_NL_0.47 LPS_P2.csv,0,0
+P,without 9 random other tests,LO|NL|0.47 LPS,LO_NL_0.47 LPS_P1.csv,0,0
+P,without 9 random other tests,LO|NL|0.47 LPS,LO_NL_0.47 LPS_P2.csv,3,0
+P,all other tests,LO|NL|ND,LO_NL_ND_P1.csv,0,0
+P,all other tests,LO|NL|ND,LO_NL_ND_P2.csv,0,0
+P,without same-flow tests,LO|NL|ND,LO_NL_ND_P1.csv,0,0
+P,without same-flow tests,LO|NL|ND,LO_NL_ND_P2.csv,0,0
+P,without 9 random other tests,LO|NL|ND,LO_NL_ND_P1.csv,0,0
+P,without 9 random other tests,LO|NL|ND,LO_NL_ND_P2.csv,0,0
+P,all other tests,LO|NL|Transient,LO_NL_Transient_P1.csv,0,0
+P,all other tests,LO|NL|Transient,LO_NL_Transient_P2.csv,0,0
+P,without same-flow tests,LO|NL|Transient,LO_NL_Transient_P1.csv,0,0
+P,without same-flow tests,LO|NL|Transient,LO_NL_Transient_P2.csv,0,0
+P,without 9 random other tests,LO|NL|Transient,LO_NL_Transient_P1.csv,0,0
+P,without 9 random other tests,LO|NL|Transient,LO_NL_Transient_P2.csv,0,0
+P,all other tests,LO|OL|0.18 LPS,LO_OL_0.18 LPS_P1.csv,3,1
+P,all other tests,LO|OL|0.18 LPS,LO_OL_0.18 LPS_P2.csv,1,1
+P,without same-flow tests,LO|OL|0.18 LPS,LO_OL_0.18 LPS_P1.csv,1,1
+P,without same-flow tests,LO|OL|0.18 LPS,LO_OL_0.18 LPS_P2.csv,1,1
+P,without 9 random other tests,LO|OL|0.18 LPS,LO_OL_0.18 LPS_P1.csv,3,1
+P,without 9 random other tests,LO|OL|0.18 LPS,LO_OL_0.18 LPS_P2.csv,1,1
+P,all other tests,LO|OL|0.47 LPS,LO_OL_0.47 LPS_P1.csv,2,1
+P,all other tests,LO|OL|0.47 LPS,LO_OL_0.47 LPS_P2.csv,3,1
+P,without same-flow tests,LO|OL|0.47 LPS,LO_OL_0.47 LPS_P1.csv,0,1
+P,without same-flow tests,LO|OL|0.47 LPS,LO_OL_0.47 LPS_P2.csv,3,1
+P,without 9 random other tests,LO|OL|0.47 LPS,LO_OL_0.47 LPS_P1.csv,0,1
+P,without 9 random other tests,LO|OL|0.47 LPS,LO_OL_0.47 LPS_P2.csv,3,1
+P,all other tests,LO|OL|ND,LO_OL_ND_P1.csv,3,1
+P,all other tests,LO|OL|ND,LO_OL_ND_P2.csv,1,1
+P,without same-flow tests,LO|OL|ND,LO_OL_ND_P1.csv,3,1
+P,without same-flow tests,LO|OL|ND,LO_OL_ND_P2.csv,1,1
+P,without 9 random other tests,LO|OL|ND,LO_OL_ND_P1.csv,3,1
+P,without 9 random other tests,LO|OL|ND,LO_OL_ND_P2.csv,1,1
+P,all other tests,LO|OL|Transient,LO_OL_Transient_P1.csv,4,1
+P,all other tests,LO|OL|Transient,LO_OL_Transient_P2.csv,4,1
+P,without same-flow tests,LO|OL|Transient,LO_OL_Transient_P1.csv,4,1
+P,without same-flow tests,LO|OL|Transient,LO_OL_Transient_P2.csv,1,1
+P,without 9 random other tests,LO|OL|Transient,LO_OL_Transient_P1.csv,4,1
+P,without 9 random other tests,LO|OL|Transient,LO_OL_Transient_P2.csv,4,1
+H,all other tests,BR|CC|0.18 LPS,BR_CC_0.18 LPS_N_H1.raw,2,3
+H,all other tests,BR|CC|0.18 LPS,BR_CC_0.18 LPS_N_H2.raw,2,3
+H,without same-flow tests,BR|CC|0.18 LPS,BR_CC_0.18 LPS_N_H1.raw,3,3
+H,without same-flow tests,BR|CC|0.18 LPS,BR_CC_0.18 LPS_N_H2.raw,3,3
+H,without 9 random other tests,BR|CC|0.18 LPS,BR_CC_0.18 LPS_N_H1.raw,2,3
+H,without 9 random other tests,BR|CC|0.18 LPS,BR_CC_0.18 LPS_N_H2.raw,3,3
+H,all other tests,BR|CC|0.47 LPS,BR_CC_0.47 LPS_N_H1.raw,2,3
+H,all other tests,BR|CC|0.47 LPS,BR_CC_0.47 LPS_N_H2.raw,0,3
+H,without same-flow tests,BR|CC|0.47 LPS,BR_CC_0.47 LPS_N_H1.raw,3,3
+H,without same-flow tests,BR|CC|0.47 LPS,BR_CC_0.47 LPS_N_H2.raw,3,3
+H,without 9 random other tests,BR|CC|0.47 LPS,BR_CC_0.47 LPS_N_H1.raw,2,3
+H,without 9 random other tests,BR|CC|0.47 LPS,BR_CC_0.47 LPS_N_H2.raw,3,3
+H,all other tests,BR|CC|ND,BR_CC_ND_NN_H1.raw,2,3
+H,all other tests,BR|CC|ND,BR_CC_ND_NN_H2.raw,2,3
+H,all other tests,BR|CC|ND,BR_CC_ND_N_H1.raw,4,3
+H,all other tests,BR|CC|ND,BR_CC_ND_N_H2.raw,2,3
+H,without same-flow tests,BR|CC|ND,BR_CC_ND_NN_H1.raw,3,3
+H,without same-flow tests,BR|CC|ND,BR_CC_ND_NN_H2.raw,2,3
+H,without same-flow tests,BR|CC|ND,BR_CC_ND_N_H1.raw,4,3
+H,without same-flow tests,BR|CC|ND,BR_CC_ND_N_H2.raw,3,3
+H,without 9 random other tests,BR|CC|ND,BR_CC_ND_NN_H1.raw,2,3
+H,without 9 random other tests,BR|CC|ND,BR_CC_ND_NN_H2.raw,2,3
+H,without 9 random other tests,BR|CC|ND,BR_CC_ND_N_H1.raw,4,3
+H,without 9 random other tests,BR|CC|ND,BR_CC_ND_N_H2.raw,2,3
+H,all other tests,BR|CC|Transient,BR_CC_Transient_NN_H1.raw,4,3
+H,all other tests,BR|CC|Transient,BR_CC_Transient_NN_H2.raw,2,3
+H,all other tests,BR|CC|Transient,BR_CC_Transient_N_H1.raw,2,3
+H,all other tests,BR|CC|Transient,BR_CC_Transient_N_H2.raw,3,3
+H,without same-flow tests,BR|CC|Transient,BR_CC_Transient_NN_H1.raw,3,3
+H,without same-flow tests,BR|CC|Transient,BR_CC_Transient_NN_H2.raw,2,3
+H,without same-flow tests,BR|CC|Transient,BR_CC_Transient_N_H1.raw,3,3
+H,without same-flow tests,BR|CC|Transient,BR_CC_Transient_N_H2.raw,3,3
+H,without 9 random other tests,BR|CC|Transient,BR_CC_Transient_NN_H1.raw,3,3
+H,without 9 random other tests,BR|CC|Transient,BR_CC_Transient_NN_H2.raw,3,3
+H,without 9 random other tests,BR|CC|Transient,BR_CC_Transient_N_H1.raw,3,3
+H,without 9 random other tests,BR|CC|Transient,BR_CC_Transient_N_H2.raw,3,3
+H,all other tests,BR|GL|0.18 LPS,BR_GL_0.18 LPS_N_H1.raw,1,4
+H,all other tests,BR|GL|0.18 LPS,BR_GL_0.18 LPS_N_H2.raw,4,4
+H,without same-flow tests,BR|GL|0.18 LPS,BR_GL_0.18 LPS_N_H1.raw,4,4
+H,without same-flow tests,BR|GL|0.18 LPS,BR_GL_0.18 LPS_N_H2.raw,4,4
+H,without 9 random other tests,BR|GL|0.18 LPS,BR_GL_0.18 LPS_N_H1.raw,4,4
+H,without 9 random other tests,BR|GL|0.18 LPS,BR_GL_0.18 LPS_N_H2.raw,4,4
+H,all other tests,BR|GL|0.47 LPS,BR_GL_0.47 LPS_N_H1.raw,4,4
+H,all other tests,BR|GL|0.47 LPS,BR_GL_0.47 LPS_N_H2.raw,4,4
+H,without same-flow tests,BR|GL|0.47 LPS,BR_GL_0.47 LPS_N_H1.raw,4,4
+H,without same-flow tests,BR|GL|0.47 LPS,BR_GL_0.47 LPS_N_H2.raw,4,4
+H,without 9 random other tests,BR|GL|0.47 LPS,BR_GL_0.47 LPS_N_H1.raw,4,4
+H,without 9 random other tests,BR|GL|0.47 LPS,BR_GL_0.47 LPS_N_H2.raw,4,4
+H,all other tests,BR|GL|ND,BR_GL_ND_NN_H1.raw,4,4
+H,all other tests,BR|GL|ND,BR_GL_ND_NN_H2.raw,4,4
+H,all other tests,BR|GL|ND,BR_GL_ND_N_H1.raw,3,4
+H,all other tests,BR|GL|ND,BR_GL_ND_N_H2.raw,4,4
+H,without same-flow tests,BR|GL|ND,BR_GL_ND_NN_H1.raw,4,4
+H,without same-flow tests,BR|GL|ND,BR_GL_ND_NN_H2.raw,4,4
+H,without same-flow tests,BR|GL|ND,BR_GL_ND_N_H1.raw,4,4
+H,without same-flow tests,BR|GL|ND,BR_GL_ND_N_H2.raw,4,4
+H,without 9 random other tests,BR|GL|ND,BR_GL_ND_NN_H1.raw,4,4
+H,without 9 random other tests,BR|GL|ND,BR_GL_ND_NN_H2.raw,4,4
+H,without 9 random other tests,BR|GL|ND,BR_GL_ND_N_H1.raw,3,4
+H,without 9 random other tests,BR|GL|ND,BR_GL_ND_N_H2.raw,4,4
+H,all other tests,BR|GL|Transient,BR_GL_Transient_NN_H1.raw,4,4
+H,all other tests,BR|GL|Transient,BR_GL_Transient_NN_H2.raw,4,4
+H,all other tests,BR|GL|Transient,BR_GL_Transient_N_H1.raw,4,4
+H,all other tests,BR|GL|Transient,BR_GL_Transient_N_H2.raw,4,4
+H,without same-flow tests,BR|GL|Transient,BR_GL_Transient_NN_H1.raw,4,4
+H,without same-flow tests,BR|GL|Transient,BR_GL_Transient_NN_H2.raw,4,4
+H,without same-flow tests,BR|GL|Transient,BR_GL_Transient_N_H1.raw,4,4
+H,without same-flow tests,BR|GL|Transient,BR_GL_Transient_N_H2.raw,4,4
+H,without 9 random other tests,BR|GL|Transient,BR_GL_Transient_NN_H1.raw,4,4
+H,without 9 random other tests,BR|GL|Transient,BR_GL_Transient_NN_H2.raw,4,4
+H,without 9 random other tests,BR|GL|Transient,BR_GL_Transient_N_H1.raw,4,4
+H,without 9 random other tests,BR|GL|Transient,BR_GL_Transient_N_H2.raw,4,4
+H,all other tests,BR|LC|0.18 LPS,BR_LC_0.18 LPS_N_H1.raw,2,2
+H,all other tests,BR|LC|0.18 LPS,BR_LC_0.18 LPS_N_H2.raw,3,2
+H,without same-flow tests,BR|LC|0.18 LPS,BR_LC_0.18 LPS_N_H1.raw,2,2
+H,without same-flow tests,BR|LC|0.18 LPS,BR_LC_0.18 LPS_N_H2.raw,2,2
+H,without 9 random other tests,BR|LC|0.18 LPS,BR_LC_0.18 LPS_N_H1.raw,2,2
+H,without 9 random other tests,BR|LC|0.18 LPS,BR_LC_0.18 LPS_N_H2.raw,2,2
+H,all other tests,BR|LC|0.47 LPS,BR_LC_0.47 LPS_N_H1.raw,2,2
+H,all other tests,BR|LC|0.47 LPS,BR_LC_0.47 LPS_N_H2.raw,3,2
+H,without same-flow tests,BR|LC|0.47 LPS,BR_LC_0.47 LPS_N_H1.raw,2,2
+H,without same-flow tests,BR|LC|0.47 LPS,BR_LC_0.47 LPS_N_H2.raw,3,2
+H,without 9 random other tests,BR|LC|0.47 LPS,BR_LC_0.47 LPS_N_H1.raw,0,2
+H,without 9 random other tests,BR|LC|0.47 LPS,BR_LC_0.47 LPS_N_H2.raw,3,2
+H,all other tests,BR|LC|ND,BR_LC_ND_NN_H1.raw,3,2
+H,all other tests,BR|LC|ND,BR_LC_ND_NN_H2.raw,3,2
+H,all other tests,BR|LC|ND,BR_LC_ND_N_H1.raw,3,2
+H,all other tests,BR|LC|ND,BR_LC_ND_N_H2.raw,3,2
+H,without same-flow tests,BR|LC|ND,BR_LC_ND_NN_H1.raw,2,2
+H,without same-flow tests,BR|LC|ND,BR_LC_ND_NN_H2.raw,2,2
+H,without same-flow tests,BR|LC|ND,BR_LC_ND_N_H1.raw,2,2
+H,without same-flow tests,BR|LC|ND,BR_LC_ND_N_H2.raw,2,2
+H,without 9 random other tests,BR|LC|ND,BR_LC_ND_NN_H1.raw,3,2
+H,without 9 random other tests,BR|LC|ND,BR_LC_ND_NN_H2.raw,2,2
+H,without 9 random other tests,BR|LC|ND,BR_LC_ND_N_H1.raw,3,2
+H,without 9 random other tests,BR|LC|ND,BR_LC_ND_N_H2.raw,3,2
+H,all other tests,BR|LC|Transient,BR_LC_Transient_NN_H1.raw,3,2
+H,all other tests,BR|LC|Transient,BR_LC_Transient_NN_H2.raw,1,2
+H,all other tests,BR|LC|Transient,BR_LC_Transient_N_H1.raw,2,2
+H,all other tests,BR|LC|Transient,BR_LC_Transient_N_H2.raw,1,2
+H,without same-flow tests,BR|LC|Transient,BR_LC_Transient_NN_H1.raw,3,2
+H,without same-flow tests,BR|LC|Transient,BR_LC_Transient_NN_H2.raw,2,2
+H,without same-flow tests,BR|LC|Transient,BR_LC_Transient_N_H1.raw,2,2
+H,without same-flow tests,BR|LC|Transient,BR_LC_Transient_N_H2.raw,1,2
+H,without 9 random other tests,BR|LC|Transient,BR_LC_Transient_NN_H1.raw,3,2
+H,without 9 random other tests,BR|LC|Transient,BR_LC_Transient_NN_H2.raw,1,2
+H,without 9 random other tests,BR|LC|Transient,BR_LC_Transient_N_H1.raw,2,2
+H,without 9 random other tests,BR|LC|Transient,BR_LC_Transient_N_H2.raw,1,2
+H,all other tests,BR|NL|0.18 LPS,BR_NL_0.18 LPS_N_H1.raw,2,0
+H,all other tests,BR|NL|0.18 LPS,BR_NL_0.18 LPS_N_H2.raw,3,0
+H,without same-flow tests,BR|NL|0.18 LPS,BR_NL_0.18 LPS_N_H1.raw,2,0
+H,without same-flow tests,BR|NL|0.18 LPS,BR_NL_0.18 LPS_N_H2.raw,3,0
+H,without 9 random other tests,BR|NL|0.18 LPS,BR_NL_0.18 LPS_N_H1.raw,3,0
+H,without 9 random other tests,BR|NL|0.18 LPS,BR_NL_0.18 LPS_N_H2.raw,3,0
+H,all other tests,BR|NL|0.47 LPS,BR_NL_0.47 LPS_N_H1.raw,2,0
+H,all other tests,BR|NL|0.47 LPS,BR_NL_0.47 LPS_N_H2.raw,3,0
+H,without same-flow tests,BR|NL|0.47 LPS,BR_NL_0.47 LPS_N_H1.raw,0,0
+H,without same-flow tests,BR|NL|0.47 LPS,BR_NL_0.47 LPS_N_H2.raw,0,0
+H,without 9 random other tests,BR|NL|0.47 LPS,BR_NL_0.47 LPS_N_H1.raw,0,0
+H,without 9 random other tests,BR|NL|0.47 LPS,BR_NL_0.47 LPS_N_H2.raw,4,0
+H,all other tests,BR|NL|ND,BR_NL_ND_NN_H1.raw,0,0
+H,all other tests,BR|NL|ND,BR_NL_ND_NN_H2.raw,3,0
+H,all other tests,BR|NL|ND,BR_NL_ND_N_H1.raw,0,0
+H,all other tests,BR|NL|ND,BR_NL_ND_N_H2.raw,0,0
+H,without same-flow tests,BR|NL|ND,BR_NL_ND_NN_H1.raw,0,0
+H,without same-flow tests,BR|NL|ND,BR_NL_ND_NN_H2.raw,3,0
+H,without same-flow tests,BR|NL|ND,BR_NL_ND_N_H1.raw,0,0
+H,without same-flow tests,BR|NL|ND,BR_NL_ND_N_H2.raw,0,0
+H,without 9 random other tests,BR|NL|ND,BR_NL_ND_NN_H1.raw,0,0
+H,without 9 random other tests,BR|NL|ND,BR_NL_ND_NN_H2.raw,3,0
+H,without 9 random other tests,BR|NL|ND,BR_NL_ND_N_H1.raw,0,0
+H,without 9 random other tests,BR|NL|ND,BR_NL_ND_N_H2.raw,0,0
+H,all other tests,BR|NL|Transient,BR_NL_Transient_NN_H1.raw,0,0
+H,all other tests,BR|NL|Transient,BR_NL_Transient_NN_H2.raw,4,0
+H,all other tests,BR|NL|Transient,BR_NL_Transient_N_H1.raw,0,0
+H,all other tests,BR|NL|Transient,BR_NL_Transient_N_H2.raw,4,0
+H,without same-flow tests,BR|NL|Transient,BR_NL_Transient_NN_H1.raw,0,0
+H,without same-flow tests,BR|NL|Transient,BR_NL_Transient_NN_H2.raw,4,0
+H,without same-flow tests,BR|NL|Transient,BR_NL_Transient_N_H1.raw,0,0
+H,without same-flow tests,BR|NL|Transient,BR_NL_Transient_N_H2.raw,0,0
+H,without 9 random other tests,BR|NL|Transient,BR_NL_Transient_NN_H1.raw,0,0
+H,without 9 random other tests,BR|NL|Transient,BR_NL_Transient_NN_H2.raw,4,0
+H,without 9 random other tests,BR|NL|Transient,BR_NL_Transient_N_H1.raw,0,0
+H,without 9 random other tests,BR|NL|Transient,BR_NL_Transient_N_H2.raw,4,0
+H,all other tests,BR|OL|0.18 LPS,BR_OL_0.18 LPS_N_H1.raw,1,1
+H,all other tests,BR|OL|0.18 LPS,BR_OL_0.18 LPS_N_H2.raw,1,1
+H,without same-flow tests,BR|OL|0.18 LPS,BR_OL_0.18 LPS_N_H1.raw,1,1
+H,without same-flow tests,BR|OL|0.18 LPS,BR_OL_0.18 LPS_N_H2.raw,1,1
+H,without 9 random other tests,BR|OL|0.18 LPS,BR_OL_0.18 LPS_N_H1.raw,1,1
+H,without 9 random other tests,BR|OL|0.18 LPS,BR_OL_0.18 LPS_N_H2.raw,1,1
+H,all other tests,BR|OL|0.47 LPS,BR_OL_0.47 LPS_N_H1.raw,1,1
+H,all other tests,BR|OL|0.47 LPS,BR_OL_0.47 LPS_N_H2.raw,1,1
+H,without same-flow tests,BR|OL|0.47 LPS,BR_OL_0.47 LPS_N_H1.raw,1,1
+H,without same-flow tests,BR|OL|0.47 LPS,BR_OL_0.47 LPS_N_H2.raw,1,1
+H,without 9 random other tests,BR|OL|0.47 LPS,BR_OL_0.47 LPS_N_H1.raw,1,1
+H,without 9 random other tests,BR|OL|0.47 LPS,BR_OL_0.47 LPS_N_H2.raw,1,1
+H,all other tests,BR|OL|ND,BR_OL_ND_NN_H1.raw,4,1
+H,all other tests,BR|OL|ND,BR_OL_ND_NN_H2.raw,1,1
+H,all other tests,BR|OL|ND,BR_OL_ND_N_H1.raw,1,1
+H,all other tests,BR|OL|ND,BR_OL_ND_N_H2.raw,1,1
+H,without same-flow tests,BR|OL|ND,BR_OL_ND_NN_H1.raw,1,1
+H,without same-flow tests,BR|OL|ND,BR_OL_ND_NN_H2.raw,1,1
+H,without same-flow tests,BR|OL|ND,BR_OL_ND_N_H1.raw,1,1
+H,without same-flow tests,BR|OL|ND,BR_OL_ND_N_H2.raw,1,1
+H,without 9 random other tests,BR|OL|ND,BR_OL_ND_NN_H1.raw,1,1
+H,without 9 random other tests,BR|OL|ND,BR_OL_ND_NN_H2.raw,1,1
+H,without 9 random other tests,BR|OL|ND,BR_OL_ND_N_H1.raw,1,1
+H,without 9 random other tests,BR|OL|ND,BR_OL_ND_N_H2.raw,1,1
+H,all other tests,BR|OL|Transient,BR_OL_Transient_NN_H1.raw,1,1
+H,all other tests,BR|OL|Transient,BR_OL_Transient_NN_H2.raw,1,1
+H,all other tests,BR|OL|Transient,BR_OL_Transient_N_H1.raw,1,1
+H,all other tests,BR|OL|Transient,BR_OL_Transient_N_H2.raw,1,1
+H,without same-flow tests,BR|OL|Transient,BR_OL_Transient_NN_H1.raw,1,1
+H,without same-flow tests,BR|OL|Transient,BR_OL_Transient_NN_H2.raw,1,1
+H,without same-flow tests,BR|OL|Transient,BR_OL_Transient_N_H1.raw,1,1
+H,without same-flow tests,BR|OL|Transient,BR_OL_Transient_N_H2.raw,1,1
+H,without 9 random other tests,BR|OL|Transient,BR_OL_Transient_NN_H1.raw,1,1
+H,without 9 random other tests,BR|OL|Transient,BR_OL_Transient_NN_H2.raw,1,1
+H,without 9 random other tests,BR|OL|Transient,BR_OL_Transient_N_H1.raw,1,1
+H,without 9 random other tests,BR|OL|Transient,BR_OL_Transient_N_H2.raw,1,1
+H,all other tests,LO|CC|0.18 LPS,LO_CC_0.18 LPS_N_H1.raw,4,3
+H,all other tests,LO|CC|0.18 LPS,LO_CC_0.18 LPS_N_H2.raw,3,3
+H,without same-flow tests,LO|CC|0.18 LPS,LO_CC_0.18 LPS_N_H1.raw,3,3
+H,without same-flow tests,LO|CC|0.18 LPS,LO_CC_0.18 LPS_N_H2.raw,3,3
+H,without 9 random other tests,LO|CC|0.18 LPS,LO_CC_0.18 LPS_N_H1.raw,3,3
+H,without 9 random other tests,LO|CC|0.18 LPS,LO_CC_0.18 LPS_N_H2.raw,3,3
+H,all other tests,LO|CC|0.47 LPS,LO_CC_0.47 LPS_N_H1.raw,4,3
+H,all other tests,LO|CC|0.47 LPS,LO_CC_0.47 LPS_N_H2.raw,3,3
+H,without same-flow tests,LO|CC|0.47 LPS,LO_CC_0.47 LPS_N_H1.raw,4,3
+H,without same-flow tests,LO|CC|0.47 LPS,LO_CC_0.47 LPS_N_H2.raw,3,3
+H,without 9 random other tests,LO|CC|0.47 LPS,LO_CC_0.47 LPS_N_H1.raw,4,3
+H,without 9 random other tests,LO|CC|0.47 LPS,LO_CC_0.47 LPS_N_H2.raw,3,3
+H,all other tests,LO|CC|ND,LO_CC_ND_NN_H1.raw,0,3
+H,all other tests,LO|CC|ND,LO_CC_ND_NN_H2.raw,4,3
+H,all other tests,LO|CC|ND,LO_CC_ND_N_H1.raw,2,3
+H,all other tests,LO|CC|ND,LO_CC_ND_N_H2.raw,3,3
+H,without same-flow tests,LO|CC|ND,LO_CC_ND_NN_H1.raw,2,3
+H,without same-flow tests,LO|CC|ND,LO_CC_ND_NN_H2.raw,3,3
+H,without same-flow tests,LO|CC|ND,LO_CC_ND_N_H1.raw,2,3
+H,without same-flow tests,LO|CC|ND,LO_CC_ND_N_H2.raw,3,3
+H,without 9 random other tests,LO|CC|ND,LO_CC_ND_NN_H1.raw,2,3
+H,without 9 random other tests,LO|CC|ND,LO_CC_ND_NN_H2.raw,3,3
+H,without 9 random other tests,LO|CC|ND,LO_CC_ND_N_H1.raw,0,3
+H,without 9 random other tests,LO|CC|ND,LO_CC_ND_N_H2.raw,3,3
+H,all other tests,LO|CC|Transient,LO_CC_Transient_NN_H1.raw,4,3
+H,all other tests,LO|CC|Transient,LO_CC_Transient_NN_H2.raw,4,3
+H,all other tests,LO|CC|Transient,LO_CC_Transient_N_H1.raw,4,3
+H,all other tests,LO|CC|Transient,LO_CC_Transient_N_H2.raw,4,3
+H,without same-flow tests,LO|CC|Transient,LO_CC_Transient_NN_H1.raw,4,3
+H,without same-flow tests,LO|CC|Transient,LO_CC_Transient_NN_H2.raw,4,3
+H,without same-flow tests,LO|CC|Transient,LO_CC_Transient_N_H1.raw,4,3
+H,without same-flow tests,LO|CC|Transient,LO_CC_Transient_N_H2.raw,3,3
+H,without 9 random other tests,LO|CC|Transient,LO_CC_Transient_NN_H1.raw,4,3
+H,without 9 random other tests,LO|CC|Transient,LO_CC_Transient_NN_H2.raw,4,3
+H,without 9 random other tests,LO|CC|Transient,LO_CC_Transient_N_H1.raw,4,3
+H,without 9 random other tests,LO|CC|Transient,LO_CC_Transient_N_H2.raw,4,3
+H,all other tests,LO|GL|0.18 LPS,LO_GL_0.18 LPS_N_H1.raw,3,4
+H,all other tests,LO|GL|0.18 LPS,LO_GL_0.18 LPS_N_H2.raw,4,4
+H,without same-flow tests,LO|GL|0.18 LPS,LO_GL_0.18 LPS_N_H1.raw,4,4
+H,without same-flow tests,LO|GL|0.18 LPS,LO_GL_0.18 LPS_N_H2.raw,4,4
+H,without 9 random other tests,LO|GL|0.18 LPS,LO_GL_0.18 LPS_N_H1.raw,3,4
+H,without 9 random other tests,LO|GL|0.18 LPS,LO_GL_0.18 LPS_N_H2.raw,4,4
+H,all other tests,LO|GL|0.47 LPS,LO_GL_0.47 LPS_N_H1.raw,4,4
+H,all other tests,LO|GL|0.47 LPS,LO_GL_0.47 LPS_N_H2.raw,4,4
+H,without same-flow tests,LO|GL|0.47 LPS,LO_GL_0.47 LPS_N_H1.raw,4,4
+H,without same-flow tests,LO|GL|0.47 LPS,LO_GL_0.47 LPS_N_H2.raw,4,4
+H,without 9 random other tests,LO|GL|0.47 LPS,LO_GL_0.47 LPS_N_H1.raw,4,4
+H,without 9 random other tests,LO|GL|0.47 LPS,LO_GL_0.47 LPS_N_H2.raw,4,4
+H,all other tests,LO|GL|ND,LO_GL_ND_NN_H1.raw,4,4
+H,all other tests,LO|GL|ND,LO_GL_ND_NN_H2.raw,4,4
+H,all other tests,LO|GL|ND,LO_GL_ND_N_H1.raw,4,4
+H,all other tests,LO|GL|ND,LO_GL_ND_N_H2.raw,4,4
+H,without same-flow tests,LO|GL|ND,LO_GL_ND_NN_H1.raw,4,4
+H,without same-flow tests,LO|GL|ND,LO_GL_ND_NN_H2.raw,4,4
+H,without same-flow tests,LO|GL|ND,LO_GL_ND_N_H1.raw,4,4
+H,without same-flow tests,LO|GL|ND,LO_GL_ND_N_H2.raw,4,4
+H,without 9 random other tests,LO|GL|ND,LO_GL_ND_NN_H1.raw,4,4
+H,without 9 random other tests,LO|GL|ND,LO_GL_ND_NN_H2.raw,4,4
+H,without 9 random other tests,LO|GL|ND,LO_GL_ND_N_H1.raw,4,4
+H,without 9 random other tests,LO|GL|ND,LO_GL_ND_N_H2.raw,4,4
+H,all other tests,LO|GL|Transient,LO_GL_Transient_NN_H1.raw,4,4
+H,all other tests,LO|GL|Transient,LO_GL_Transient_NN_H2.raw,4,4
+H,all other tests,LO|GL|Transient,LO_GL_Transient_N_H1.raw,4,4
+H,all other tests,LO|GL|Transient,LO_GL_Transient_N_H2.raw,4,4
+H,without same-flow tests,LO|GL|Transient,LO_GL_Transient_NN_H1.raw,4,4
+H,without same-flow tests,LO|GL|Transient,LO_GL_Transient_NN_H2.raw,4,4
+H,without same-flow tests,LO|GL|Transient,LO_GL_Transient_N_H1.raw,4,4
+H,without same-flow tests,LO|GL|Transient,LO_GL_Transient_N_H2.raw,4,4
+H,without 9 random other tests,LO|GL|Transient,LO_GL_Transient_NN_H1.raw,4,4
+H,without 9 random other tests,LO|GL|Transient,LO_GL_Transient_NN_H2.raw,4,4
+H,without 9 random other tests,LO|GL|Transient,LO_GL_Transient_N_H1.raw,4,4
+H,without 9 random other tests,LO|GL|Transient,LO_GL_Transient_N_H2.raw,4,4
+H,all other tests,LO|LC|0.18 LPS,LO_LC_0.18 LPS_N_H1.raw,2,2
+H,all other tests,LO|LC|0.18 LPS,LO_LC_0.18 LPS_N_H2.raw,2,2
+H,without same-flow tests,LO|LC|0.18 LPS,LO_LC_0.18 LPS_N_H1.raw,2,2
+H,without same-flow tests,LO|LC|0.18 LPS,LO_LC_0.18 LPS_N_H2.raw,2,2
+H,without 9 random other tests,LO|LC|0.18 LPS,LO_LC_0.18 LPS_N_H1.raw,2,2
+H,without 9 random other tests,LO|LC|0.18 LPS,LO_LC_0.18 LPS_N_H2.raw,2,2
+H,all other tests,LO|LC|0.47 LPS,LO_LC_0.47 LPS_N_H1.raw,4,2
+H,all other tests,LO|LC|0.47 LPS,LO_LC_0.47 LPS_N_H2.raw,3,2
+H,without same-flow tests,LO|LC|0.47 LPS,LO_LC_0.47 LPS_N_H1.raw,4,2
+H,without same-flow tests,LO|LC|0.47 LPS,LO_LC_0.47 LPS_N_H2.raw,3,2
+H,without 9 random other tests,LO|LC|0.47 LPS,LO_LC_0.47 LPS_N_H1.raw,4,2
+H,without 9 random other tests,LO|LC|0.47 LPS,LO_LC_0.47 LPS_N_H2.raw,3,2
+H,all other tests,LO|LC|ND,LO_LC_ND_NN_H1.raw,2,2
+H,all other tests,LO|LC|ND,LO_LC_ND_NN_H2.raw,3,2
+H,all other tests,LO|LC|ND,LO_LC_ND_N_H1.raw,2,2
+H,all other tests,LO|LC|ND,LO_LC_ND_N_H2.raw,2,2
+H,without same-flow tests,LO|LC|ND,LO_LC_ND_NN_H1.raw,2,2
+H,without same-flow tests,LO|LC|ND,LO_LC_ND_NN_H2.raw,3,2
+H,without same-flow tests,LO|LC|ND,LO_LC_ND_N_H1.raw,2,2
+H,without same-flow tests,LO|LC|ND,LO_LC_ND_N_H2.raw,2,2
+H,without 9 random other tests,LO|LC|ND,LO_LC_ND_NN_H1.raw,2,2
+H,without 9 random other tests,LO|LC|ND,LO_LC_ND_NN_H2.raw,2,2
+H,without 9 random other tests,LO|LC|ND,LO_LC_ND_N_H1.raw,2,2
+H,without 9 random other tests,LO|LC|ND,LO_LC_ND_N_H2.raw,2,2
+H,all other tests,LO|LC|Transient,LO_LC_Transient_NN_H1.raw,2,2
+H,all other tests,LO|LC|Transient,LO_LC_Transient_NN_H2.raw,3,2
+H,all other tests,LO|LC|Transient,LO_LC_Transient_N_H1.raw,0,2
+H,all other tests,LO|LC|Transient,LO_LC_Transient_N_H2.raw,0,2
+H,without same-flow tests,LO|LC|Transient,LO_LC_Transient_NN_H1.raw,2,2
+H,without same-flow tests,LO|LC|Transient,LO_LC_Transient_NN_H2.raw,3,2
+H,without same-flow tests,LO|LC|Transient,LO_LC_Transient_N_H1.raw,0,2
+H,without same-flow tests,LO|LC|Transient,LO_LC_Transient_N_H2.raw,0,2
+H,without 9 random other tests,LO|LC|Transient,LO_LC_Transient_NN_H1.raw,2,2
+H,without 9 random other tests,LO|LC|Transient,LO_LC_Transient_NN_H2.raw,3,2
+H,without 9 random other tests,LO|LC|Transient,LO_LC_Transient_N_H1.raw,0,2
+H,without 9 random other tests,LO|LC|Transient,LO_LC_Transient_N_H2.raw,0,2
+H,all other tests,LO|NL|0.18 LPS,LO_NL_0.18 LPS_N_H1.raw,0,0
+H,all other tests,LO|NL|0.18 LPS,LO_NL_0.18 LPS_N_H2.raw,0,0
+H,without same-flow tests,LO|NL|0.18 LPS,LO_NL_0.18 LPS_N_H1.raw,0,0
+H,without same-flow tests,LO|NL|0.18 LPS,LO_NL_0.18 LPS_N_H2.raw,0,0
+H,without 9 random other tests,LO|NL|0.18 LPS,LO_NL_0.18 LPS_N_H1.raw,0,0
+H,without 9 random other tests,LO|NL|0.18 LPS,LO_NL_0.18 LPS_N_H2.raw,0,0
+H,all other tests,LO|NL|0.47 LPS,LO_NL_0.47 LPS_N_H1.raw,0,0
+H,all other tests,LO|NL|0.47 LPS,LO_NL_0.47 LPS_N_H2.raw,0,0
+H,without same-flow tests,LO|NL|0.47 LPS,LO_NL_0.47 LPS_N_H1.raw,0,0
+H,without same-flow tests,LO|NL|0.47 LPS,LO_NL_0.47 LPS_N_H2.raw,0,0
+H,without 9 random other tests,LO|NL|0.47 LPS,LO_NL_0.47 LPS_N_H1.raw,0,0
+H,without 9 random other tests,LO|NL|0.47 LPS,LO_NL_0.47 LPS_N_H2.raw,0,0
+H,all other tests,LO|NL|ND,LO_NL_ND_NN_H1.raw,0,0
+H,all other tests,LO|NL|ND,LO_NL_ND_NN_H2.raw,0,0
+H,all other tests,LO|NL|ND,LO_NL_ND_N_H1.raw,0,0
+H,all other tests,LO|NL|ND,LO_NL_ND_N_H2.raw,0,0
+H,without same-flow tests,LO|NL|ND,LO_NL_ND_NN_H1.raw,0,0
+H,without same-flow tests,LO|NL|ND,LO_NL_ND_NN_H2.raw,0,0
+H,without same-flow tests,LO|NL|ND,LO_NL_ND_N_H1.raw,0,0
+H,without same-flow tests,LO|NL|ND,LO_NL_ND_N_H2.raw,0,0
+H,without 9 random other tests,LO|NL|ND,LO_NL_ND_NN_H1.raw,0,0
+H,without 9 random other tests,LO|NL|ND,LO_NL_ND_NN_H2.raw,0,0
+H,without 9 random other tests,LO|NL|ND,LO_NL_ND_N_H1.raw,0,0
+H,without 9 random other tests,LO|NL|ND,LO_NL_ND_N_H2.raw,0,0
+H,all other tests,LO|NL|Transient,LO_NL_Transient_NN_H1.raw,0,0
+H,all other tests,LO|NL|Transient,LO_NL_Transient_NN_H2.raw,0,0
+H,all other tests,LO|NL|Transient,LO_NL_Transient_N_H1.raw,0,0
+H,all other tests,LO|NL|Transient,LO_NL_Transient_N_H2.raw,0,0
+H,without same-flow tests,LO|NL|Transient,LO_NL_Transient_NN_H1.raw,0,0
+H,without same-flow tests,LO|NL|Transient,LO_NL_Transient_NN_H2.raw,0,0
+H,without same-flow tests,LO|NL|Transient,LO_NL_Transient_N_H1.raw,0,0
+H,without same-flow tests,LO|NL|Transient,LO_NL_Transient_N_H2.raw,0,0
+H,without 9 random other tests,LO|NL|Transient,LO_NL_Transient_NN_H1.raw,0,0
+H,without 9 random other tests,LO|NL|Transient,LO_NL_Transient_NN_H2.raw,0,0
+H,without 9 random other tests,LO|NL|Transient,LO_NL_Transient_N_H1.raw,0,0
+H,without 9 random other tests,LO|NL|Transient,LO_NL_Transient_N_H2.raw,0,0
+H,all other tests,LO|OL|0.18 LPS,LO_OL_0.18 LPS_N_H1.raw,1,1
+H,all other tests,LO|OL|0.18 LPS,LO_OL_0.18 LPS_N_H2.raw,1,1
+H,without same-flow tests,LO|OL|0.18 LPS,LO_OL_0.18 LPS_N_H1.raw,1,1
+H,without same-flow tests,LO|OL|0.18 LPS,LO_OL_0.18 LPS_N_H2.raw,1,1
+H,without 9 random other tests,LO|OL|0.18 LPS,LO_OL_0.18 LPS_N_H1.raw,1,1
+H,without 9 random other tests,LO|OL|0.18 LPS,LO_OL_0.18 LPS_N_H2.raw,1,1
+H,all other tests,LO|OL|0.47 LPS,LO_OL_0.47 LPS_N_H1.raw,1,1
+H,all other tests,LO|OL|0.47 LPS,LO_OL_0.47 LPS_N_H2.raw,1,1
+H,without same-flow tests,LO|OL|0.47 LPS,LO_OL_0.47 LPS_N_H1.raw,1,1
+H,without same-flow tests,LO|OL|0.47 LPS,LO_OL_0.47 LPS_N_H2.raw,1,1
+H,without 9 random other tests,LO|OL|0.47 LPS,LO_OL_0.47 LPS_N_H1.raw,1,1
+H,without 9 random other tests,LO|OL|0.47 LPS,LO_OL_0.47 LPS_N_H2.raw,1,1
+H,all other tests,LO|OL|ND,LO_OL_ND_NN_H1.raw,1,1
+H,all other tests,LO|OL|ND,LO_OL_ND_NN_H2.raw,1,1
+H,all other tests,LO|OL|ND,LO_OL_ND_N_H1.raw,1,1
+H,all other tests,LO|OL|ND,LO_OL_ND_N_H2.raw,1,1
+H,without same-flow tests,LO|OL|ND,LO_OL_ND_NN_H1.raw,1,1
+H,without same-flow tests,LO|OL|ND,LO_OL_ND_NN_H2.raw,1,1
+H,without same-flow tests,LO|OL|ND,LO_OL_ND_N_H1.raw,1,1
+H,without same-flow tests,LO|OL|ND,LO_OL_ND_N_H2.raw,1,1
+H,without 9 random other tests,LO|OL|ND,LO_OL_ND_NN_H1.raw,1,1
+H,without 9 random other tests,LO|OL|ND,LO_OL_ND_NN_H2.raw,1,1
+H,without 9 random other tests,LO|OL|ND,LO_OL_ND_N_H1.raw,1,1
+H,without 9 random other tests,LO|OL|ND,LO_OL_ND_N_H2.raw,1,1
+H,all other tests,LO|OL|Transient,LO_OL_Transient_NN_H1.raw,0,1
+H,all other tests,LO|OL|Transient,LO_OL_Transient_NN_H2.raw,1,1
+H,all other tests,LO|OL|Transient,LO_OL_Transient_N_H1.raw,1,1
+H,all other tests,LO|OL|Transient,LO_OL_Transient_N_H2.raw,1,1
+H,without same-flow tests,LO|OL|Transient,LO_OL_Transient_NN_H1.raw,1,1
+H,without same-flow tests,LO|OL|Transient,LO_OL_Transient_NN_H2.raw,1,1
+H,without same-flow tests,LO|OL|Transient,LO_OL_Transient_N_H1.raw,1,1
+H,without same-flow tests,LO|OL|Transient,LO_OL_Transient_N_H2.raw,1,1
+H,without 9 random other tests,LO|OL|Transient,LO_OL_Transient_NN_H1.raw,1,1
+H,without 9 random other tests,LO|OL|Transient,LO_OL_Transient_NN_H2.raw,1,1
+H,without 9 random other tests,LO|OL|Transient,LO_OL_Transient_N_H1.raw,1,1
+H,without 9 random other tests,LO|OL|Transient,LO_OL_Transient_N_H2.raw,1,1
